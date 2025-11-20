@@ -10,6 +10,7 @@
   supportedPlanets:
   #- AUPlanetGixensCaverns Rout of rotation till fixed - eg
   - AUPlanetStableGarrison
+  - AUPlanethybrisiametro
  # - AUPlanetShepherdsPride
 
   rules:
@@ -30,6 +31,7 @@
     #- AUPlanetLV747
     - AUPlanetShepherdsPride
     - AUPlanetLV624
+    - AUPlanethybrisiametro
    # - AUPlanetStableGarrison
   rules:
   - AuVoteRule

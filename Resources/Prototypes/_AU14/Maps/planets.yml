@@ -104,7 +104,29 @@
     - cultistThreat
     - wendigoThreat
 
-
+- type: entity
+  id: AUPlanethybrisiametro
+  name: LV-759 Hybrisia Metropolitan
+  components:
+  - type: RMCPlanetMapPrototype
+    votename: "LV-759 Hybrisia Metropolitan"
+    mapId: hybrisiametro
+    camouflage: Jungle
+    announcement: "A remote research outpost, Shepherd's Pride, has gone silent. The UNS Almayer is dispatched to investigate the mysterious circumstances."
+    platoonsOpfor:
+    - UPP
+    - WEYU
+    platoonsGovfor:
+    - UNISC
+    - USCM
+    - CCAF
+    defaultgovfor: USCM
+    defaultopfor: UPP
+    govforinship: false
+    opforinship: true
+    faction: ua
+    threats:
+    - cultistThreat
 
 - type: entity
   id: AUPlanetGixensCaverns

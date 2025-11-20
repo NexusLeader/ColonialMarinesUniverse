@@ -183,7 +183,7 @@
     - opfor
     - govfor
     repeating: false
-    objectivelevel: 2
+    objectivelevel: 1
     custompoints: 15
     roundEndMessage: Finding the WY laptop
     ObjectiveDescription: "Retrieve the Weyland-Yutani bioweapons division laptop"
@@ -192,6 +192,33 @@
     markerentity: fetchobjectivemarkergenericspawnpoint
     amounttospawn: 1
     amounttofetch: 1
+
+- type: entity
+  name: Fetch two WY Laptop Objecive
+  parent: MarkerBase
+  id: fetchwylaptopobjective2
+  components:
+  - type: Sprite
+    state: red
+  - type: AuObjective
+    id: fetchwylaptopobjj
+    factioneutral: false
+    applicableModes:
+    - ForceOnForce
+    - DistressSignal
+    possiblefactions:
+    - opfor
+    - govfor
+    repeating: false
+    objectivelevel: 1
+    custompoints: 15
+    roundEndMessage: Finding the WY laptop
+    ObjectiveDescription: "Retrieve both of the Weyland-Yutani bioweapons division laptops"
+  - type: FetchObjective
+    entitytospawn: AU14ObjectiveItemAtmosphericRadarStorageUnit
+    markerentity: fetchobjectivemarkergenericspawnpoint
+    amounttospawn: 2
+    amounttofetch: 2
 
 - type: entity
   name: Fetch  Generic Spawnpoint

@@ -1,0 +1,43 @@
+- type: gameMap
+  id: hybrisiametro
+  mapName: LV-759 Hybrisia Metropolitan
+  mapPath: /Maps/_AU14/hybrisiametro.yml
+  minPlayers: 0
+  maxPlayers: 175
+  maxRandomOffset: 0
+  randomRotation: false
+  stations:
+    hybrisiametromap:
+      stationProto: StandardUNMCWarship
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'hybrisiametromap'
+        - type: StationJobs
+          availableJobs:
+            AU14JobCivilianColonist: [ -1, -1 ]
+            AU14JobCivilianFoodServiceWorker: [3, 3]
+            AU14JobCivilianJournalist: [1, 1]
+            AU14JobCivilianColonySynthetic: [1, 1]
+
+            # Colony Command (non department)
+            AU14JobCivilianCorporateLiaison: [1, 1]
+            AU14JobCivilianColonyAdministrator: [1, 1]
+
+            # Security/LEO
+            AU14JobCiviliannspaConstable: [4, 4]
+
+            # Engineering/Logi
+            AU14JobCivilianForeman: [1, 1]
+            AU14JobCivilianFreightSystemsSpecialist: [2, 2]
+            AU14JobCivilianEngineer: [4, 4]
+            AU14JobCivilianWasteManagementSpecialist: [2, 2]
+
+            # Medical
+            AU14JobCivilianPhysician: [1, 1]
+            AU14JobCivilianNurse: [3, 3]
+            AU14JobCivilianEthicsAndWellnessAdvisor: [1, 1]
+            AU14JobCivilianEmergencyResponseOfficer: [2, 2]
+
+            # Other
+
+
