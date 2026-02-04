@@ -1,6 +1,6 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobGOVFORSquadCombatTech
+  id: AU14JobGOVFORSquadCombatTechUPP
   name: au14-job-name-govforsquadcombattech
   description: au14-job-description-govforsquadcombattech
   setPreference: true

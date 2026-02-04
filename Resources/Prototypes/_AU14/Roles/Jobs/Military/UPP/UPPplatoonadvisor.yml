@@ -1,6 +1,6 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobGOVFORadvisor
+  id: AU14JobGOVFORadvisorUPP
   name: au14-job-name-govforadvisor
   description: au14-job-description-govforadvisor
   setPreference: true
