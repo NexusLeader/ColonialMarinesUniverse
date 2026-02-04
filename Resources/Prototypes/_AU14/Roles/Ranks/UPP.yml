@@ -14,19 +14,25 @@
 - type: rank
   id: UPP_SeniorGefreiter
   name: Senior Gefreiter
-  prefix: SGefr.
+  prefix: SnGefr.
+  paygrade: E3
+
+- type: rank
+  id: UPP_Corporal
+  name: Corporal
+  prefix: Corp.
   paygrade: E3
 
 - type: rank
   id: UPP_Plutonowy
   name: Plutonowy
   prefix: Plut.
-  paygrade: E3
+  paygrade: E4
 
 - type: rank
   id: UPP_Sergeant
   name: Sergeant
-  prefix: SSgt.
+  prefix: Sgt.
   paygrade: E5
 
 - type: rank
@@ -57,20 +63,26 @@
 - type: rank
   id: UPP_SeniorWarrantOfficer
   name: Senior Warrant Officer
-  prefix: Sen WO.
+  prefix: SnWO.
   paygrade: W2
 
 # officers
 - type: rank
-  id: UPP_Leutenant
-  name: Junior Leutenant
-  prefix: JLt.
+  id: UPP_JuniorLieutenant
+  name: Junior Lieutenant
+  prefix: JnLt.
   paygrade: O1
 
 - type: rank
-  id: UPP_Leutenant
-  name: Leutenant
+  id: UPP_Lieutenant
+  name: Lieutenant
   prefix: Lt.
+  paygrade: O1
+
+- type: rank
+  id: UPP_SeniorLieutenant
+  name: Senior Lieutenant
+  prefix: SnLt.
   paygrade: O2
 
 - type: rank
@@ -88,34 +100,34 @@
   paygrade: O4
 
 - type: rank
-  id: UPP_Podpolkovnik
+  id: UPP_LieutenantColonel
   name: Lieutenant Colonel
   prefix: Lt Col.
   paygrade: O5
 
 - type: rank
-  id: UPP_Polkovnik
+  id: UPP_Colonel
   name: Colonel
   prefix: Col.
   paygrade: O6
 
 # Generals
 - type: rank
-  id: UPP_GeneralMajor
-  name: General-Major
-  prefix: GenMaj.
+  id: UPP_BrigadierGeneral
+  name: Brigadier-General
+  prefix: Brig-Gen.
   paygrade: O7
 
 - type: rank
-  id: UPP_GeneralLieutenant
-  name: General-Lieutenant
-  prefix: GenLt.
+  id: UPP_DivisionalGeneral
+  name: Divisional General
+  prefix: Div-Gen.
   paygrade: O8
 
 - type: rank
-  id: UPP_GeneralColonel
-  name: General-Colonel
-  prefix: GenCol.
+  id: UPP_GeneralOfTheBranch
+  name: General of the branch
+  prefix: Gen-Br.
   paygrade: O9
 
 - type: rank

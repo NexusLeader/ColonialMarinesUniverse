@@ -6,11 +6,11 @@
   setPreference: false
   playTimeTracker: AU14JobGOVFORSquadRifleman
   ranks:
-    UPP_Yefreytor:
+    UPP_Gefreiter:
     - !type:RoleTimeRequirement
       role: AU14JobGOVFORSquadRifleman
-      time: 1800 # 30 hours
-    UPP_Ryadovoy: []
+      time: 108000 # 30 hours
+    UPP_Private: []
   startingGear: AU14GearGOVFORSquadRifleman
   dummyStartingGear: AU14GearGOVFORRiflemanDummy
   icon: "AU14JobIconRFN"
