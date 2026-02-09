@@ -2,7 +2,7 @@
 - type: entity
   parent: ArmorHelmetM10
   id: ArmorHelmetSPP
-  name: SUPP UM4 helmet
+  name: UPP UM4 helmet
   description: Using highly skilled manufacturing techniques this UM4 helmet manages to be very resistant to ballistics damage, at the cost of its huge weight causing an extreme stress on the occupant's head that will most likely cause neck problems.
   components:
   - type: Sprite

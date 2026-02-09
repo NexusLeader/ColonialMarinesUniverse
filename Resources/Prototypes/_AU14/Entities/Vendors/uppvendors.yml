@@ -16,7 +16,9 @@
         amount: 25
     - name: Footwear
       entries:
-      - id: RMCBootsSPPFilled
+      - id: RMCBootsSPPBlack
+        amount: 25
+      - id: RMCBootsSPP
         amount: 25
     - name: Gloves
       entries:
@@ -349,6 +351,14 @@
         amount: 15
       - id: CMTricordrazineAutoInjector
         amount: 15
+    - name: Medical Helmets
+      choices: { CMUPlatoonMedicalHelmet: 1 }
+      entries:
+      - id: AU14HeadHelmetRMCMedic
+    - name: Medical Uniform
+      choices: { CMUPlatoonMedicalUniform: 1 }
+      entries:
+      - id: AU14JumpsuitMedicUPP
     - name: Medical Gloves
       choices: { CMUPlatoonMedicalGloves: 1 }
       entries:
@@ -521,9 +531,9 @@
     sections:
     - name: Fatigues
       entries:
-      - id: AU14UPPFatigues
+      - id: AU14JumpsuitOfficerUPP
         amount: 2
-      - id: AU14BoilerFatiguesUPP
+      - id: AU14JumpsuitMPUPP
         amount: 2
       - id: AU14ServiceFatiguesUPP
         amount: 2
@@ -731,3 +741,87 @@
         amount: 12
       - id: RMCMagazinePistolT73
         amount: 12
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14ComtechGearVendorUPP
+  name: UPP combat technicians gear rack
+  description: An automated gear rack for combat technicians.
+  components:
+  - type: AccessReader
+    access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/combat_technician_gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - AU14JobGOVFORSquadCombatTech
+    - AU14JobOPFORSquadCombatTech
+    sections:
+    - name: Engineer Set
+      takeAll: CMEngineerSet
+      entries:
+      - id: AU14VendorBundleCombatTechnicianEssentials
+    - name: Automated Sentry Gun
+      choices:  { CMHandheldDefense : 1 }
+      entries:
+      - id: AU14CaseSentry
+      - id: AU14CaseSentryMini
+      - id: AU14CaseSentrySniper
+    - name: Engineer Uniform
+      choices: { CMUPlatoonMedicalUniform: 1 }
+      entries:
+      - id: AU14JumpsuitEngiUPP
+    - name: Tool Storage
+      choices: { CMUCTToolStorage: 1 }
+      entries:
+      - id: AU14BeltUtilityCombatFilled
+        name: M276 pattern combat toolbelt rig (filled)
+        recommended: true
+      - id: AU14PouchToolsFilledComtech
+        name: tactical tools pouch (filled)
+      - id: AU14BeltUtilityFilled
+        name: M276 pattern toolbelt rig (filled)
+    - name: Engineering Storage Bag
+      choices: { CMUPouchesCTBag: 1 }
+      entries:
+      - id: RMCSatchelSPPWelder
+        recommended: true
+    - name: Engineering Storage Pouch
+      choices: { CMUPouchesCT: 1 }
+      entries:
+      - id: RMCPouchConstruction
+        recommended: true
+      - id: RMCPouchElectronics
+    - name: Engineering Supplies
+      entries:
+      - id: CMSheetMetal50
+        name: metal x50
+        points: 8
+        recommended: true
+      - id: CMSheetPlasteel50
+        name: plasteel x50
+        points: 10
+        recommended: true
+      - id: CMAPCElectronics
+        points: 2
+      - id: DoorElectronics
+        points: 2
+      - id: RMCPowerCellHigh
+        points: 3
+      - id: RMCPowerCellSuper
+        points: 8
+      - id: RMCMagazineSMGNailgun
+        points: 5
+    #- id: CMES11MobileFuelCanister
+    #  points: 4
+    - name: Explosives
+      entries:
+      - id: RMCExplosivePlastic
+        points: 5
+      - id: RMCExplosiveBreachingCharge
+        points: 8
+        recommended: true
+    - name: Utilities
+      entries:
+      - id: RMCSynthResetKey
+        points: 5

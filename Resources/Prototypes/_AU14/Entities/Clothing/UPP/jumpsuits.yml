@@ -1,7 +1,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesUPP
-  name: UPP Naval Infantry Fatigues
+  suffix: AU14
+  name: UPP naval infantry fatigues
   description: A standard set of Union of Progressive Peoples Fatigues. It has shards of light Kevlar to help protect against shrapnel.
   components:
   - type: Sprite
@@ -10,6 +11,42 @@
     startingAccessories:
     - AU14PatchUPP
     - AU14PatchUPPNavalInfantry
+
+- type: entity
+  parent: AU14FatiguesUPP
+  name: UPP engineer fatigues
+  id: AU14JumpsuitEngiUPP
+  suffix: AU14
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/engi.rsi
+
+- type: entity
+  parent: AU14FatiguesUPP
+  id: AU14JumpsuitMPUPP
+  name: UPP military police fatigues
+  suffix: AU14
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/mp.rsi
+  
+- type: entity
+  parent: AU14FatiguesUPP
+  name: UPP medic fatigues
+  id: AU14JumpsuitMedicUPP
+  suffix: AU14, New
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/medic.rsi
+
+- type: entity
+  parent: AU14FatiguesUPP
+  name: UPP officer fatigues
+  id: AU14JumpsuitOfficerUPP
+  suffix: AU14
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/officer.rsi
 
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
@@ -32,26 +69,6 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/uppboiler.rsi
-  - type: UniformAccessoryHolder
-    startingAccessories:
-    - AU14PatchUPP
-    - AU14PatchUPPNavalInfantry
-
-- type: entity
-  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
-  id: AU14SynthFatiguesUPP
-  name: UPP Support Synthetic Uniform
-  description: Standart-issue UPP Army service uniform designed to be worn by Synthetic Units.
-  components:
-  - type: RMCClothingFoldable
-    types:
-    - name: rmc-sleeves-verb
-      prefix: sleeves
-      priority: 1
-      blacklistedPrefix: jacket
-      blacklistPopup: rmc-sleeves-cannot
-  - type: Sprite
-    sprite: _AU14/Clothing/UPP/jumpsuits/uppciv2.rsi
   - type: UniformAccessoryHolder
     startingAccessories:
     - AU14PatchUPP
