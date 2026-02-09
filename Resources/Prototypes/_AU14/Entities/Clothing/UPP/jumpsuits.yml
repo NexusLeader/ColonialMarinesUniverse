@@ -34,7 +34,7 @@
   parent: AU14FatiguesUPP
   name: UPP medic fatigues
   id: AU14JumpsuitMedicUPP
-  suffix: AU14, New
+  suffix: AU14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/SPP/medic.rsi
