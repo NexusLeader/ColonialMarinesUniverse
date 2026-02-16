@@ -912,7 +912,7 @@
     faction: GOVFOR
 
 - type: partySpawn
-  id: UPPPGROMSpawn
+  id: UPPGROMSpawn
   leadersToSpawn:
     AU14UPPGROMCommander: 1
   gruntsToSpawn:
