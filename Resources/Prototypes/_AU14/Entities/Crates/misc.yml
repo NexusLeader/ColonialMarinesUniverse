@@ -150,7 +150,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: MCRocketHJRA12A
+    - id: RMCRocketHJRA12AT
       amount: 2
     - id: RMCRocketHJRA12HE
       amount: 2

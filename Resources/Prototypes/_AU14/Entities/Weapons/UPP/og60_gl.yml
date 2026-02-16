@@ -27,7 +27,7 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CMGrenadeHighExplosive
+      - LauncherCompatibleGrenade
     capacity: 6
     proto: AU14GrenadeHighExplosiveUPP
   - type: Corrodible

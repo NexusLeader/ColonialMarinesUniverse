@@ -751,7 +751,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMCommander
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # SL
 - type: startingGear
@@ -777,7 +777,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMSquadleader
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # Pointman
 - type: startingGear
@@ -803,7 +803,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMPointman
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # Rifleman
 - type: startingGear
@@ -829,7 +829,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMRifleman
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # Marksman
 - type: startingGear
@@ -855,7 +855,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMMarksman
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # Machinegunner
 - type: startingGear
@@ -881,7 +881,7 @@
   - type: PresetIdCard
     job: AU14UPPGROMMachinegunner
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 # Support Tech
 - type: startingGear
@@ -909,10 +909,10 @@
   - type: PresetIdCard
     job: AU14UPPGROMSupportTech
   - type: ItemIFF
-    faction: FactionGOVFOR
+    faction: GOVFOR
 
 - type: partySpawn
-  id: UUPGROMSpawn
+  id: UpPGROMSpawn
   leadersToSpawn:
     AU14UPPGROMCommander: 1
   gruntsToSpawn:
@@ -936,7 +936,7 @@
   roundstart: false
 
 - type: partySpawn
-  id: UUPGROMSpawnAlt
+  id: UpPGROMSpawnAlt
   leadersToSpawn:
     AU14UPPGROMCommander: 1
   gruntsToSpawn:
@@ -960,7 +960,7 @@
   roundstart: false
 
 - type: partySpawn
-  id: UUPGROMSpawnAlt2
+  id: UpPGROMSpawnAlt2
   leadersToSpawn:
     AU14UPPGROMCommander: 1
   gruntsToSpawn:
@@ -987,7 +987,7 @@
   id: AU14JobUPPGROMCommander
 
 - type: playTimeTracker
-  id: AU14JobUPPGROMSquadleader
+  id: AU14JobUPPGROMSquadLeader
 
 - type: playTimeTracker
   id: AU14JobUPPGROMPointman
