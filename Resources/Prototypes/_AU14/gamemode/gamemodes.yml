@@ -13,7 +13,9 @@
   #- AUPlanetShepherdsPride
   - AUPlanetFlight
   - AUPlanetLV759
-
+  - AUPlanetLV327
+  - AUPlanetCorsatStation
+  - AUPlanetSorokyne
   rules:
   - AuVoteRule
   - PlatoonSpawn
@@ -35,6 +37,7 @@
     - AUPlanetLV624
     - AUPlanetLV747
     - AUPlanetLV759
+    - AUPlanetSorokyne
 
    # - AUPlanetStableGarrison
   rules:
@@ -54,7 +57,9 @@
   #- AUPlanetShepherdsPride for playtest - eg
   - AUPlanetLV747
   - AUPlanetFlight
-
+  - AUPlanetLV327
+  - AUPlanetSorokyne
+  - AUPlanetCorsatStation
   # - AUPlanetStableGarrison
   rules:
   - AuVoteRule
@@ -78,6 +83,8 @@
     - AUPlanetLV747
     - AUPlanetShepherdsPride
     - AUPlanetLV624
+    - AUPlanetLV327
+    - AUPlanetSorokyne
 
 - type: gamePreset
   id: Jailbreak
@@ -174,7 +181,7 @@
     jobs:
       AU14JobCLFCellLeader: 1
       AU14JobCLFPhysician: 2
-      AU14JobCLFGuerilla: 16
+      AU14JobCLFGuerilla: 6
       AU14JobCLFMachineGunner: 1
 
 - type: entity
