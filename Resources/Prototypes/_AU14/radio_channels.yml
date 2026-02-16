@@ -100,7 +100,7 @@
   faction: "govfor"
 
 - type: radioChannel
-  id: OpforIntel
+  id: UPPSOF
   name: chat-radio-uppsof
   keycode: "7"
   frequency: 1533
