@@ -1,36 +1,32 @@
 - type: job
-  parent: CMJobBase
-  id: AU14JobOpforPlatCo
-  name: au14-job-name-opforplatco
-  description: au14-job-description-opforplatco
+  parent: AU14JobadvisorBase
+  id: AU14JobOPFORadvisor
+  name: au14-job-name-opforadvisor
+  description: au14-job-description-opforadvisor
   setPreference: true
   canBeAntag: false
-  playTimeTracker: AU14JobGOVFORPlatCo
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 18000 # 5 hours
+    time: 3600 # Set to 72000 once we are fully launched AU14 todo
   - !type:AgeRequirement
-    requiredAge: 30
+    requiredAge: 21
   - !type:TraitsRequirement
     inverted: true
     traits:
-    - SocialAnxiety
-    - SocialAnxietyHeavy
-    - FrontalLisp
-    - NonResuscitable
     - Epilepsy
   ranks:
-    RMCRankCaptain:
+    RMCRankSergeantMajor:
     - !type:RoleTimeRequirement
-      role: AU14JobGOVFORPlatCo
+      role: AU14JobGOVFORadvisor
       time: 432000 # 120 hours
-    RMCRankFirstLT: []
-  startingGear: AU14GearopforPlatCo
-  dummyStartingGear: AU14GearopforPlatCoDummy
-  icon: "AU14JobIconOPFORPlatCo"
+    RMCRankFirstSergeant: []
+  startingGear: AU14GearOPFORadvisor
+  dummyStartingGear: AU14GearOPFORadvisorDummy
+  icon: "AU14JobIconOPFORAdvisor"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-opforplatco
+  supervisors: au14-job-supervisors-opfor
+  whitelisted: true
   accessGroups:
   - AU14OpforCommand
   roleWeight: 0.25
@@ -45,33 +41,34 @@
     - type: Skills
       preset: AU14SkillPresetPlatoonCommander
     - type: JobPrefix
-      prefix: au14-job-prefix-opforplatco
+      prefix: au14-job-prefix-opforadvisor
     - type: TacticalMapIcon
       icon:
         sprite: _RMC14/Interface/map_blips.rsi
         state: synth
-  hidden: false
+  hidden: true
 
 - type: startingGear
-  id: AU14GearopforPlatCo
+  id: AU14GearOPFORadvisor
   equipment:
-    id: AU14IDCardopforPlatCo
+    id: AU14IDCardOPFORAdvisor
     ears: AU14HeadsetSectionLeaderopfor
+    back: AU14SatchelMarineAdvisorMilitary
 
 - type: entity
   parent: CMSpawnPointJobBase
-  id: AU14SpawnPointopforPlatCo
-  name: Spawn Point opfor Platoon Commander
+  id: AU14SpawnPointOPFORadvisor
+  name: Spawn Point OPFOR Advisor
   components:
   - type: SpawnPoint
-    job_id: AU14JobOpforPlatCo
+    job_id: AU14JobOPFORadvisor
   - type: Sprite
     state: syn_spawn
 
 - type: startingGear
-  id: AU14GearopforPlatCoDummy
+  id: AU14GearOPFORadvisorDummy
   equipment:
-    shoes: CMBootsBlack
-    head: CMHeadCapPeakedFormal
-    jumpsuit: CMJumpsuitXOFormal
+    shoes: CMBootsBrownFilled
+    head: CMHeadCapDrill
+    jumpsuit: CMJumpsuitBO
     ears: AU14HeadsetSectionLeaderopfor
