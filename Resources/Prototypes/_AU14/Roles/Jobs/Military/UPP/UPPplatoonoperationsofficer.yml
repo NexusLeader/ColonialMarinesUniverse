@@ -1,11 +1,10 @@
 - type: job
-  parent: CMJobBase
+  parent: AU14JobPlatOpBase
   id: AU14JobGOVFORPlatOpUPP
   name: Staff Officer
   description: au14-job-description-govforplatop
   setPreference: false
   canBeAntag: false
-  playTimeTracker: AU14JobGOVFORPlatOp
   ranks:
     UPP_Lieutenant:
     - !type:RoleTimeRequirement
@@ -48,4 +47,4 @@
       icon:
         sprite: _RMC14/Interface/map_blips.rsi
         state: synth
-  hidden: false
+  hidden: true

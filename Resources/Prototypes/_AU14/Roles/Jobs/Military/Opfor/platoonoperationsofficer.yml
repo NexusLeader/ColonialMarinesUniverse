@@ -1,79 +1,70 @@
 - type: job
-  parent: CMJobBase
-  id: AU14JobOpforPlatCo
-  name: au14-job-name-opforplatco
-  description: au14-job-description-opforplatco
+  parent: AU14JobPlatOpBase
+  id: AU14JobOpforPlatOp
+  name: au14-job-name-opforplatop
+  description: au14-job-description-opforplatop
   setPreference: true
   canBeAntag: false
-  playTimeTracker: AU14JobGOVFORPlatCo
   requirements:
-  - !type:OverallPlaytimeRequirement
-    time: 18000 # 5 hours
   - !type:AgeRequirement
-    requiredAge: 30
+    requiredAge: 25
   - !type:TraitsRequirement
     inverted: true
     traits:
-    - SocialAnxiety
     - SocialAnxietyHeavy
     - FrontalLisp
     - NonResuscitable
     - Epilepsy
   ranks:
-    RMCRankCaptain:
-    - !type:RoleTimeRequirement
-      role: AU14JobGOVFORPlatCo
-      time: 432000 # 120 hours
-    RMCRankFirstLT: []
-  startingGear: AU14GearopforPlatCo
-  dummyStartingGear: AU14GearopforPlatCoDummy
-  icon: "AU14JobIconOPFORPlatCo"
+    RMCRankSecondLT: []
+  startingGear: AU14GearopforPlatOp
+  dummyStartingGear: AU14GearopforPlatOpDummy
+  icon: "AU14JobIconOPFOROpsOfc"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-opforplatco
+  supervisors: au14-job-supervisors-opfor
   accessGroups:
   - AU14OpforCommand
   roleWeight: 0.25
   special:
+
   - !type:AddComponentSpecial
     components:
-    - type: CommendationGiver
     - type: NpcFactionMember
       factions:
       - OPFOR
     - type: Marine
       Faction: opfor
     - type: Skills
-      preset: AU14SkillPresetPlatoonCommander
+      preset: AU14SkillPresetPlatoonJuniorOfficer
     - type: JobPrefix
-      prefix: au14-job-prefix-opforplatco
+      prefix: au14-job-prefix-opforplatop
     - type: TacticalMapIcon
       icon:
         sprite: _RMC14/Interface/map_blips.rsi
         state: synth
-  hidden: false
+  hidden: true
 
 - type: startingGear
-  id: AU14GearopforPlatCo
+  id: AU14GearopforPlatOp
   equipment:
-    id: AU14IDCardopforPlatCo
+    id: AU14IDCardopforPlatOp
     ears: AU14HeadsetSectionLeaderopfor
-  inhand:
-   -  RMCTabletOpfor
+
 - type: entity
   parent: CMSpawnPointJobBase
-  id: AU14SpawnPointopforPlatCo
-  name: Spawn Point opfor Platoon Commander
+  id: AU14SpawnPointopforPlatOp
+  name: Spawn Point opfor Platoon Operations Officer
   components:
   - type: SpawnPoint
-    job_id: AU14JobOpforPlatCo
+    job_id: AU14JobOpforPlatOp
   - type: Sprite
     state: syn_spawn
 
 - type: startingGear
-  id: AU14GearopforPlatCoDummy
+  id: AU14GearopforPlatOpDummy
   equipment:
     shoes: CMBootsBlack
-    head: CMHeadCapPeakedFormal
+    head: AU14JunglePatrolCap
     jumpsuit: CMJumpsuitXOFormal
     ears: AU14HeadsetSectionLeaderopfor
