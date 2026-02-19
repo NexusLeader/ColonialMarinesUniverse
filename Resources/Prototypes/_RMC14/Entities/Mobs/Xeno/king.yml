@@ -12,7 +12,7 @@
   - type: GhostRole
     name: rmc-job-name-xeno-king
   - type: Sprite
-    sprite: _RMC14/Mobs/Xenonids/King/king.rsi
+    sprite: _CMU14/Mobs/Xenos/King/king.rsi
   - type: MobState
     allowedStates:
     - Alive
@@ -114,7 +114,7 @@
         volume: -6
   - type: SoundOnDeath
     sound:
-      path: /Audio/_RMC14/Xeno/alien_queen_died.ogg
+      path: /Audio/_RMC14/Xenos/alien_queen_died.ogg
       params:
         volume: -6
   - type: XenoAnnounceDeath
