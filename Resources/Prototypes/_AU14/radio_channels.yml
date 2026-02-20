@@ -23,7 +23,7 @@
   name: chat-radio-opfor
   keycode: "i"
   frequency: 1601
-  color: "#7B6CA5"
+  color: "#bb91d8"
   longRange: true
   faction: "opfor"
 
@@ -59,7 +59,7 @@
   name: chat-radio-opforbravo
   keycode: "s"
   frequency: 1603
-  color: "#B9A76D"
+  color: "#c6c1a8"
   longRange: true
   faction: "opfor"
 
@@ -68,7 +68,7 @@
   name: chat-radio-opforcharlie
   keycode: "x"
   frequency: 1604
-  color: "#7A967E"
+  color: "#bb44bd"
   longRange: true
   faction: "opfor"
 
@@ -86,7 +86,7 @@
   name: chat-radio-govforbravo
   keycode: "z"
   frequency: 1606
-  color: "#B9A76D"
+  color: "#c7b646"
   longRange: true
   faction: "govfor"
 
@@ -95,6 +95,15 @@
   name: chat-radio-govforcharlie
   keycode: "f"
   frequency: 1607
-  color: "#7A967E"
+  color: "#9D3EF0"
   longRange: true
   faction: "govfor"
+
+- type: radioChannel
+  id: UPPSOF
+  name: chat-radio-uppsof
+  keycode: "7"
+  frequency: 1533
+  color: "#e4860c"
+  longRange: true
+  faction: "opfor"

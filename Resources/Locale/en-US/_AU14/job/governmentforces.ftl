@@ -26,7 +26,7 @@ au14-job-prefix-govfordcc = DCC
 
 AU14JobGOVFORSectionSergeant = Senior Sergeant
 au14-job-name-govforSSG = Senior Sergeant
-au14-job-description-govforSSG = Senior enlisted. Keep the platoon running and lead them on the ground.
+au14-job-description-govforSSG = Senior enlisted. Keep the platoon running .
 au14-job-prefix-govforSSG = SNRSRGT
 
 AU14JobGOVFORSquadSergeant = Sergeant
@@ -49,10 +49,10 @@ au14-job-name-govforplatooncorpsman = Hospital Corpsman
 au14-job-description-govforplatooncorpsman = Provide field medical aid. Patch them up, keep them breathing, and get them back in the fight.
 au14-job-prefix-govforplatooncorpsman = HM
 
-AU14JobGOVFORRadioTelephoneOperator = Radio Operator
-au14-job-name-radiotelephoneoperator = Radio Operator
-au14-job-description-radiotelephoneoperator = Operate long-range comms. You're the link between command and the boots. Don’t drop it.
-au14-job-prefix-radiotelephoneoperator = RTO
+AU14JobGOVFORRadioTelephoneOperator =  Fireteam Lead
+au14-job-name-radiotelephoneoperator = Fireteam Leader
+au14-job-description-radiotelephoneoperator = Operate long-range comms and lead fireteams.
+au14-job-prefix-radiotelephoneoperator = FTL
 
 AU14JobGOVFORAuxSupportSynth = Support Synthetic
 au14-job-name-govforauxsupportsynth = Support Synthetic
@@ -68,6 +68,11 @@ AU14JobGOVFORadvisor = Advisor
 au14-job-name-govforadvisor = Advisor
 au14-job-description-govforadvisor = Advise command, mentor new soldiers and provide assistance wherever needed.
 au14-job-prefix-govforadvisor = ADV
+
+AU14JobMilitaryDoctorBase = Doctor
+au14-job-name-govforMilitaryDoctor = Doctor
+au14-job-description-govforMilitaryDoctor = Provide your faction with higher levels of medical care.
+au14-job-prefix-govforMilitaryDoctor = DOC
 
 au14-job-prefix-AU14JobGOVFORPlatCoWYPMC = OPDIR
 au14-job-prefix-AU14JobGOVFORPlatoonCorpsmanWYPMC = CLS
@@ -135,3 +140,26 @@ au-14-job-name-rmcrrt-smartgunner = RMC RRT Machinegunner
 au-14-job-prefix-rmcrrt-smartgunner = RRT MG
 au-14-job-name-rmcrrt-corpsman = RMC RRT Corpsman
 au-14-job-prefix-rmcrrt-corpsman = RRT HC
+
+au14-job-name-govforspecialist-heavyantitankUPP = Antitank
+au14-job-prefix-govforspecialist-heavyantitankUPP = HAT
+au14-job-name-govforspecialist-marksmanUPP = Marksman
+au14-job-prefix-govforspecialist-marksmanUPP = MRN
+au14-job-name-govforspecialist-pointmanUPP = Pointman
+au14-job-prefix-govforspecialist-pointmanUPP = PNM
+
+au-14-job-name-uppgrom-commander = GROM Commander
+au-14-job-prefix-uppgrom-commander = GROM CMD
+au-14-job-name-uppgrom-squadleader = GROM Squad Leader
+au-14-job-prefix-uppgrom-squadleader = GROM SL
+au-14-job-name-uppgrom-rifleman = GROM Rifleman
+au-14-job-prefix-uppgrom-rifleman = GROM RFN
+au-14-job-name-uppgrom-pointman = GROM Pointman
+au-14-job-prefix-uppgrom-pointman = GROM PNT
+au-14-job-name-uppgrom-marksman = GROM Marksman
+au-14-job-prefix-uppgrom-marksman = GROM MRN
+au-14-job-name-uppgrom-machinegunner = GROM Machinegunner
+au-14-job-prefix-uppgrom-machinegunner = GROM MG
+au-14-job-name-uppgrom-supporttech = GROM Support Tech
+au-14-job-prefix-uppgrom-supporttech = GROM ST
+

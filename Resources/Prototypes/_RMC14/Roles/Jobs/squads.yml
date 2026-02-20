@@ -115,6 +115,7 @@
   name: Auxiliary
   components:
   - type: SquadTeam
+
     color: "#053818"
     blacklistedSquadArmor:
     - Helmet
@@ -332,12 +333,12 @@
   name: Sierra
   components:
   - type: SquadTeam
-    color: "#7B6CA5"
+    color: "#bb91d8"
     radio: opfor
     group: OPFOR
     minimapBackground:
       sprite: _RMC14/Interface/map_blips.rsi
-      state: background_bravo
+      state: background_sierra
     leaderIcon:
       sprite: _RMC14/Interface/cm_job_icons.rsi
       state: hudsquad_leader_a
@@ -349,16 +350,15 @@
   components:
   - type: SquadTeam
     roundStart: true
-    color: "#B9A76D"
+    color: "#c6c1a8"
     group: OPFOR
-
     radio: OpforBravo
     accessLevels:
     - AU14AccessOpfor
     - AU14AccessGovfor
     minimapBackground:
      sprite: /Textures/_RMC14/Interface/map_blips.rsi
-     state: background_bravo
+     state: background_tango
 
 - type: entity
   parent: SquadBase
@@ -376,7 +376,7 @@
     - AU14AccessGovfor
     minimapBackground:
      sprite: /Textures/_RMC14/Interface/map_blips.rsi
-     state: background_charlie
+     state: background_uniform
 
 # --- GOVFOR Squads ---
 - type: entity
@@ -385,6 +385,8 @@
   name: Auxiliary
   components:
   - type: SquadTeam
+    group: GOVFOR
+
     roundStart: true
     color: "#228B22"
     radio: GovforIntel
@@ -398,10 +400,10 @@
 - type: entity
   parent: SquadBase
   id: SquadGovfor
-  name: Sierra
+  name: Alpha
   components:
   - type: SquadTeam
-    color: "#7B6CA5"
+    color: "#F0433E"
     radio: MarineAlpha
     group: GOVFOR
     minimapBackground:
@@ -414,11 +416,11 @@
 - type: entity
   parent: SquadBase
   id: SquadGovforBravo
-  name: Tango
+  name: Bravo
   components:
   - type: SquadTeam
     roundStart: true
-    color: "#B9A76D"
+    color: "#c7b646"
     group: GOVFOR
     radio: GovforBravo
     accessLevels:
@@ -431,13 +433,13 @@
 - type: entity
   parent: SquadBase
   id: SquadGovforCharlie
-  name: Uniform
+  name: Charlie
   components:
   - type: SquadTeam
     roundStart: true
     group: GOVFOR
 
-    color: "#7A967E"
+    color: "#9D3EF0"
     radio: GovforCharlie
     accessLevels:
     - AU14AccessGovforSquad
