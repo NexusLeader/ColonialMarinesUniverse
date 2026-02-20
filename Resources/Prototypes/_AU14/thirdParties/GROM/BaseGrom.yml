@@ -245,3 +245,8 @@
   - type: RMCHeadset
     channels:
     - UPPSOF
+  - type: GrantSquadLeaderTracker
+    defaultMode: GROMCommandingOfficer
+    trackerModes:
+    - GROMCommandingOfficer
+    - SquadLeader

@@ -25,6 +25,7 @@
   special:
   - !type:AddComponentSpecial
     components:
+    - type: SquadLeader
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi

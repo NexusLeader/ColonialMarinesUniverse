@@ -15,7 +15,7 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_forecon
     canSupplyDrop: false
-    group: FORECON
+    group: GROM
   - type: Tag
     tags:
     - AU14SquadGROM

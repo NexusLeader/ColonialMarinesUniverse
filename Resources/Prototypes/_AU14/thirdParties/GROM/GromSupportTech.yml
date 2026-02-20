@@ -37,7 +37,7 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - AU14SquadGROM # for future when there's a dedicated map for them, right now does nothing
+        - AU14SquadGROM
     - type: Skills
       skills:
         RMCSkillEngineer: 1
