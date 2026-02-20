@@ -24,7 +24,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: spp_co
     - type: NpcFactionMember
       factions:
       - GOVFOR
