@@ -1,6 +1,6 @@
 - type: job
   parent: CMJobBase
-  id: AU14PAPThirtpartySeniorInvestigator
+  id: AU14PAPThirdpartySeniorInvestigator
   name: au-14-job-name-papthirdparty-captain
   description: au14-papthirdparty-description
   playTimeTracker: AU14JobPaPThirdpartySeniorInvestigator
@@ -57,7 +57,7 @@
     name: au-14-job-name-papthirdparty-captain
     description: au14-papthirdparty-description
     reregister: false
-    job: AU14PAPThirtpartyInvestigator
+    job: AU14PAPThirdpartySeniorInvestigator
     raffle:
       settings: short
     rules: au14-papthirdparty-description
@@ -65,7 +65,7 @@
 - type: startingGear
   id: AU14GearPAPThirdpartySeniorInvestigator
   equipment:
-    id: AU14IDCardPAPThirdpartyInvestigator
+    id: AU14IDCardPAPThirdpartySeniorInvestigator
     outerClothing: RMCCoatPaP
     jumpsuit: RMCJumpsuitSPPPaP
     shoes: CMBootsBlackFilled
@@ -80,10 +80,6 @@
   storage:
     back:
     - RMCMaskGasSPP
-    - RMCMagazineSMGType64
-    - RMCMagazineSMGType64
-  inhand:
-    - RMCWeaponSMGType64
 
 - type: entity
   parent: CMIDCardBase
@@ -91,7 +87,7 @@
   name: UPP PaP Senior Investigator ID card
   components:
   - type: PresetIdCard
-    job: AU14PAPThirtpartySeniorInvestigator
+    job: AU14PAPThirdpartySeniorInvestigator
   - type: ItemIFF
     faction: GOVFOR
 

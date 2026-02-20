@@ -78,5 +78,5 @@
   - type: StorageFill
     contents:
     - id: RMCWeaponPistolNP92
-      amount: 6
     - id: RMCMagazinePistolNP92
+      amount: 6

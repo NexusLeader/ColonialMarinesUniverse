@@ -1,15 +1,15 @@
 - type: job
   parent: CMJobBase
-  id: AU14PAPThirtpartyObserver
+  id: AU14PAPThirdpartyObserver
   name: au-14-job-name-papthirdparty-observer
   description: au14-papthirdparty-description-observer
   playTimeTracker: AU14JobPaPThirdpartyObserver
   ranks:
-    UPP_Major:
+    UPP_SeniorLieutenant:
     - !type:RoleTimeRequirement
-      role: AU14JobPaPThirdpartySeniorInvestigator
+      role: AU14JobPaPThirdpartyObserver
       time: 18000 #5 hours
-    UPP_Captain: []
+    UPP_Lieutenant: []
   spawnMenuRoleName: UPP PaP Observer (3rd party)
   startingGear: AU14GearPAPThirdpartyObserver
   greeting: au14-papthirdparty-greeting
@@ -34,7 +34,7 @@
     - type: Skills
       skills:
         RMCSkillEndurance: 2
-        RMCSkillFireman: 1
+        RMCSkillFireman: 2
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
         RMCSkillVehicles: 1
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
-  id: AU14GearPAPThirdpartyObserver
+  id: AU14JobPAPThirdpartyObserver
   name: UPP PAP Observer
   components:
   - type: Threat
@@ -57,7 +57,7 @@
     name: au-14-job-name-papthirdparty-captain
     description: au14-papthirdparty-description
     reregister: false
-    job: AU14PAPThirtpartyInvestigator
+    job: AU14PAPThirdpartyObserver
     raffle:
       settings: short
     rules: au14-papthirdparty-description
@@ -87,7 +87,7 @@
   name: UPP PaP Observer ID card
   components:
   - type: PresetIdCard
-    job: AU14PAPThirtpartyObserver
+    job: AU14PAPThirdpartyObserver
   - type: ItemIFF
     faction: GOVFOR
 

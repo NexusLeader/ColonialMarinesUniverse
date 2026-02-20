@@ -1,6 +1,6 @@
 - type: job
-  parent: AU14JobPAPThirtpartyInvestigatorBase
-  id: AU14PAPThirtpartyInvestigator
+  parent: AU14JobPAPThirdpartyInvestigatorBase
+  id: AU14PAPThirdpartyInvestigatorSMG
   name: au-14-job-name-papthirdparty-investigator
   description: au14-papthirdparty-description
   ranks:
@@ -37,7 +37,7 @@
     - type: Skills
       skills:
         RMCSkillEndurance: 2
-        RMCSkillFireman: 1
+        RMCSkillFireman: 2
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
         RMCSkillVehicles: 1
@@ -60,7 +60,7 @@
     name: au-14-job-name-papthirdparty-investigator
     description: au14-papthirdparty-description
     reregister: false
-    job: AU14PAPThirtpartyInvestigator
+    job: AU14PAPThirdpartyInvestigatorSMG
     raffle:
       settings: short
     rules: au14-papthirdparty-description
@@ -80,10 +80,9 @@
     pocket2: AU14PouchIFAKFill
     back: RMCSatchelBlack
     ears: AU14CMBHeadset
+    suitstorage: RMCWeaponSMGType64
   storage:
     back:
     - RMCMaskGasSPP
     - RMCMagazineSMGType64
     - RMCMagazineSMGType64
-  inhand:
-    - RMCWeaponSMGType64

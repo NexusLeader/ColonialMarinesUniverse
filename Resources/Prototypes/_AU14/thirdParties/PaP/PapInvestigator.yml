@@ -1,6 +1,6 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobPAPThirtpartyInvestigatorBase
+  id: AU14JobPAPThirdpartyInvestigatorBase
   name: au-14-job-name-papthirdparty-investigator
   description: au14-papthirdparty-description
   playTimeTracker: AU14JobPaPThirdpartyInvestigator
@@ -8,8 +8,8 @@
   hidden: true
 
 - type: job
-  parent: AU14JobPAPThirtpartyInvestigatorBase
-  id: AU14PAPThirtpartyInvestigator
+  parent: AU14JobPAPThirdpartyInvestigatorBase
+  id: AU14PAPThirdpartyInvestigator
   name: au-14-job-name-papthirdparty-investigator
   description: au14-papthirdparty-description
   ranks:
@@ -46,7 +46,7 @@
     - type: Skills
       skills:
         RMCSkillEndurance: 2
-        RMCSkillFireman: 1
+        RMCSkillFireman: 2
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
         RMCSkillVehicles: 1
@@ -69,7 +69,7 @@
     name: au-14-job-name-papthirdparty-investigator
     description: au14-papthirdparty-description
     reregister: false
-    job: AU14PAPThirtpartyInvestigator
+    job: AU14PAPThirdpartyInvestigator
     raffle:
       settings: short
     rules: au14-papthirdparty-description
@@ -99,7 +99,7 @@
   name: UPP PaP Investigator ID card
   components:
   - type: PresetIdCard
-    job: AU14PAPThirtpartyInvestigator
+    job: AU14PAPThirdpartyInvestigator
   - type: ItemIFF
     faction: GOVFOR
 
