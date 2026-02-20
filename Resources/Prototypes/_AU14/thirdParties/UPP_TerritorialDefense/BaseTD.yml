@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
-  id: AU14BaseMobSpeciesOrganicPAPThirdparty
+  id: AU14BaseMobSpeciesOrganicTDThirdparty
   abstract: true
-  suffix: AU14, UPP, PAP
+  suffix: AU14, TD, UPP
   components:
   - type: Threat
   - type: GhostTakeoverAvailable
@@ -72,12 +72,11 @@
 # Equipment
 
 - type: entity
-  parent: AU14BeltHolsterPistolUPP
-  id: AU14BeltHolsterPistolUPPPAP
-  suffix: PaP, Filled, NP92
+  parent: AU14BeltMarineArmyUPP
+  id: AU14BeltMarineArmyUPPTDFilled
+  suffix: TD, Filled, AK4047
   components:
   - type: StorageFill
     contents:
-    - id: RMCWeaponPistolNP92
-    - id: RMCMagazinePistolNP92
-      amount: 6
+    - id: RMCMagazineRifleAK4047
+      amount: 5
