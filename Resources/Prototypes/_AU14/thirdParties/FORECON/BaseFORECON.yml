@@ -69,6 +69,7 @@
     allowedEyeColorsHex: [ "#000000" ]
     beardChance: 0.1
 
+
 # Equipment
 
 - type: entity

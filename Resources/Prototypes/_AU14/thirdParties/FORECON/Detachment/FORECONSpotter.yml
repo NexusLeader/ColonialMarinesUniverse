@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSpotterDetachment
-  name: rmc-job-name-forecon-spotter
+  name: au14-job-name-forecon-spotter
   description: rmc-job-description-forecon-detachment
   playTimeTracker: AU14FORECONSpotterDetachment
   ranks:
@@ -34,7 +34,7 @@
       preset: AU14SkillPresetPlatoonRifleman
     - type: SpotterWhitelist
     - type: JobPrefix
-      prefix: rmc-job-prefix-forecon-spotter
+      prefix: au14-job-prefix-forecon-spotter
   hidden: false
 
 - type: entity
@@ -46,11 +46,12 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: SquadFORECON
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: rmc-job-name-forecon-spotter
+    name: au14-job-name-forecon-spotter
     description: rmc-job-description-forecon-detachment
     reregister: false
     job: AU14FORECONSpotterDetachment

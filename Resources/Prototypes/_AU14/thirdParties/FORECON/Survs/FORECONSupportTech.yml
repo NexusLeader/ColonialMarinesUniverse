@@ -68,6 +68,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: SquadFORECON
   - type: GhostRole
     makeSentient: true
     allowSpeech: true

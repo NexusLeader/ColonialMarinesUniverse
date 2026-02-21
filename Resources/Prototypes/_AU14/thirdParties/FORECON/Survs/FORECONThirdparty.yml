@@ -51,7 +51,7 @@
   weight: 20
   minplayers: 0
   maxplayers: 400
-  GhostsNeeded: 3
+  GhostsNeeded: 0
   roundstart: true
 
 - type: partySpawn

@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14FORECONSniperDetachment
-  name: rmc-job-name-forecon-spotter
+  name: rmc-job-name-forecon-sniper
   description: rmc-job-description-forecon-detachment
   playTimeTracker: AU14FORECONSniperDetachment
   ranks:
@@ -35,7 +35,7 @@
     - type: SpotterWhitelist
     - type: SniperWhitelist
     - type: JobPrefix
-      prefix: rmc-job-prefix-forecon-spotter
+      prefix: rmc-job-prefix-weapons-specialist-sniper
   hidden: false
 
 - type: entity
@@ -47,17 +47,19 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: SquadFORECON
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: rmc-job-name-forecon-spotter
+    name: rmc-job-name-forecon-sniper
     description: rmc-job-description-forecon-detachment
     reregister: false
     job: AU14FORECONSniperDetachment
     raffle:
       settings: short
     rules: au14-forecon-detachment-rules
+
 
 - type: startingGear
   id: AU14GearFORECONSniperDetachment
