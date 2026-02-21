@@ -14,7 +14,7 @@
       role: AU14JobUPPGROMPointman
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: UPP GROM Pointman
+  spawnMenuRoleName: UPP GROM Pointman (Survivor)
   startingGear: AU14GearUPPGROMPointman
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
@@ -52,6 +52,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -82,6 +83,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUPPGROMPointman
+  categories: [ HideSpawnMenu ]
   name: UPP GROM Pointman ID card
   components:
   - type: PresetIdCard

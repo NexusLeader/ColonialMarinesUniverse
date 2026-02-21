@@ -14,10 +14,10 @@
       role: AU14JobUPPGROMSquadLeader
       time: 18000 #5 hours
     UPP_JuniorLieutenant: []
-  spawnMenuRoleName: UPP GROM Squad Leader
+  spawnMenuRoleName: UPP GROM Squad Leader (Survivor)
   startingGear: AU14GearUPPGROMSquadleader
   greeting: au14-uppgrom-greeting
-  icon: "CMJobIconEmpty"
+  icon: "AU14JobIconUPPGROMSquadLeader"
   joinNotifyCrew: false
   supervisors: au-14-job-name-uppgrom-commander
   accessGroups:
@@ -55,6 +55,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -85,12 +86,20 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUPPGROMSquadleader
+  categories: [ HideSpawnMenu ]
   name: UPP GROM Squad Leader ID card
   components:
   - type: PresetIdCard
     job: AU14UPPGROMSquadleader
   - type: ItemIFF
     faction: GOVFOR
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: AU14JobIconUPPGROMSquadLeader
+  icon:
+    sprite: _RMC14/Interface/cm_job_icons.rsi
+    state: upp_lt
 
 - type: playTimeTracker
   id: AU14JobUPPGROMSquadLeader
