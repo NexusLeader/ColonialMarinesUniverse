@@ -55,7 +55,7 @@
     - type: CMVendorUser
       id: AU14JobOPFORSquadCombatTech
       points: 50
-  hidden: true
+  hidden: false
 
 - type: startingGear
   id: AU14GearOPFORSquadCombatTech
