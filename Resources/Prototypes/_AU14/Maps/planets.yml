@@ -30,6 +30,9 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - FORECON
+    - FORECONAlt
+    - FORECONAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
@@ -283,6 +286,9 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - FORECON
+    - FORECONAlt
+    - FORECONAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
