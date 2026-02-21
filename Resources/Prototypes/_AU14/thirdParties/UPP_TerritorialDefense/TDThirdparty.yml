@@ -1,10 +1,10 @@
 - type: partySpawn
   id: UPPTDLostTeamSpawn
   leadersToSpawn:
-    AU14JobUACGLostSquadLeader: 1
+    AU14JobUPPTerritorialDefenseSquadLeader: 1
   gruntsToSpawn:
-    AU14JobUACGLostAmmobearer: 1
-    AU14JobUACGLostRifleman: 1
+    AU14JobUPPTerritorialDefenseRifleman: 1
+    AU14JobUPPTerritorialDefenseLoader: 1
   scalewithpop: false
   spawnTogether: true
 

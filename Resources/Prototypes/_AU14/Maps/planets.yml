@@ -324,6 +324,9 @@
     - TimeSharesSalesman
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
+    - UPPGROM
+    - UPPGROMAlt
+    - UPPGROMAlt2
 
 - type: entity
   id: AUPlanetSorokyne
@@ -350,6 +353,12 @@
     thirdparties:
     - ICRCReliefParty
     - cultistThirdParty
+    - UPPGROM
+    - UPPGROMAlt
+    - UPPGROMAlt2
+    - UPPTDLostTeam
+    - PAPInvestigationPartyAlt
+    - PAPInvestigationParty
     threats:
     - cultistThreat
     - XenoThreat
