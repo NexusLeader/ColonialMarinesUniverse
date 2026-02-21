@@ -23,7 +23,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: private
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostAmmobearer
-  name: Lost Colonial Guard Ammo Bearer
+  name: Lost Ammo Bearer
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

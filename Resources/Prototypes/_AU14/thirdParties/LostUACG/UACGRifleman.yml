@@ -32,7 +32,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: private
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -50,7 +50,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostRifleman
-  name: Lost Colonial Guard Rifleman
+  name: Lost Rifleman
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

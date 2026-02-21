@@ -23,10 +23,10 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadUACG
-  name: UACG
+  name: Colonial Guard
   components:
   - type: SquadTeam
-    color: "#32CD32"
+    color: "#edae72"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
