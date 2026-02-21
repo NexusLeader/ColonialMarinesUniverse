@@ -45,7 +45,7 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: synth
     - type: MarineOrders
-  hidden: true
+  hidden: false
 
 - type: startingGear
   id: AU14GearOPFORMilitaryDoctor

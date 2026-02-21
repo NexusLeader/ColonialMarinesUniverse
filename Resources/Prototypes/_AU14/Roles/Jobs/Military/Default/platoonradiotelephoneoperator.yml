@@ -48,7 +48,7 @@
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: tl
     - type: MarineOrders
-  hidden: true
+  hidden: false
 
 - type: startingGear
   id: AU14GearGOVFORRadioTelephoneOperator
