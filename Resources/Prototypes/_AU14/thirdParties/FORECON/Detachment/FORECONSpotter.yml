@@ -1,0 +1,89 @@
+- type: job
+  parent: CMJobBase
+  id: AU14FORECONSpotterDetachment
+  name: rmc-job-name-forecon-spotter
+  description: rmc-job-description-forecon-detachment
+  playTimeTracker: AU14FORECONSpotterDetachment
+  ranks:
+    RMCRankChiefWarrantOfficer:
+    - !type:RoleTimeRequirement
+      role: AU14FORECONSpotterDetachment
+      time: 18000 #5 hours
+    RMCRankWarrantOfficer: []
+  spawnMenuRoleName: FORECON Spotter (AU14, Detachment)
+  startingGear: AU14GearFORECONSpotterDetachment
+  greeting: au14-forecon-detachment-greeting
+  icon: "AU14Spotter"
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-platco
+  accessGroups:
+  - AU14GovforSquad
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: spotter
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
+    - type: Skills
+      preset: AU14SkillPresetPlatoonRifleman
+    - type: SpotterWhitelist
+    - type: JobPrefix
+      prefix: rmc-job-prefix-forecon-spotter
+  hidden: false
+
+- type: entity
+  parent: AU14BaseMobSpeciesOrganicFORECON
+  suffix: AU14, FORECON, Detachment
+  id: AU14JobFORECONSpotterDetachment
+  name: FORECON Spotter
+  components:
+  - type: Threat
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: rmc-job-name-forecon-spotter
+    description: rmc-job-description-forecon-detachment
+    reregister: false
+    job: AU14FORECONSpotterDetachment
+    raffle:
+      settings: short
+    rules: au14-forecon-detachment-rules
+
+- type: startingGear
+  id: AU14GearFORECONSpotterDetachment
+  equipment:
+    id: AU14IDCardFORECONSpotterDetachment
+    ears: AU14HeadsetSectionLeader
+  inhand:
+  - AU14KitFORECONDetachmentUniform
+  - AU14KitFORECONDetachmentSpotter
+
+- type: entity
+  parent: CMIDCardBase
+  id: AU14IDCardFORECONSpotterDetachment
+  categories: [ HideSpawnMenu ]
+  name: FORECON Spotter ID card
+  components:
+  - type: PresetIdCard
+    job: AU14FORECONSpotterDetachment
+  - type: ItemIFF
+    faction: GOVFOR
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: AU14Spotter
+  icon:
+    sprite: _RMC14/Interface/cm_job_icons.rsi
+    state: hudsquad_ass
+
+- type: playTimeTracker
+  id: AU14FORECONSpotterDetachment

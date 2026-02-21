@@ -345,3 +345,33 @@
     leaderRsi:
       sprite: _RMC14/Objects/Clothing/Head/Helmets/helmet_overlays.rsi
       state: sql-helmet
+
+- type: entity
+  parent: AU14BaseArmor
+  id: AU14ArmorGhillie
+  name: M45 pattern jungle ghillie USCM armor
+  description: A lightweight ghillie camouflage suit, used by USCMC snipers on recon missions. Very lightweight, but doesn't protect much.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USCMC/Armor/ghillie.rsi
+  - type: CMArmor
+    bio: 25
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier # light armor speed
+    walkModifier: .725
+    sprintModifier: .725
+  - type: GhillieSuit
+    whitelist:
+      components:
+      - SniperWhitelist
+      - SpotterWhitelist
+  - type: SquadArmor
+    layer: Armor
+    slot: OUTERCLOTHING
+    rsi:
+      sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+      state: snpr-armor
+    leaderRsi:
+      sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+      state: snpr-armor

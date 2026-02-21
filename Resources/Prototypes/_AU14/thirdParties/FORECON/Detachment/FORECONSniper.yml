@@ -1,0 +1,83 @@
+- type: job
+  parent: CMJobBase
+  id: AU14FORECONSniperDetachment
+  name: rmc-job-name-forecon-spotter
+  description: rmc-job-description-forecon-detachment
+  playTimeTracker: AU14FORECONSniperDetachment
+  ranks:
+    RMCRankChiefWarrantOfficer:
+    - !type:RoleTimeRequirement
+      role: AU14FORECONSniperDetachment
+      time: 18000 #5 hours
+    RMCRankWarrantOfficer: []
+  spawnMenuRoleName: FORECON Sniper (AU14, Detachment)
+  startingGear: AU14GearFORECONSniperDetachment
+  greeting: au14-forecon-detachment-greeting
+  icon: "RMCJobIconForeconSniper"
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-platco
+  accessGroups:
+  - AU14GovforSquad
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: spec_sniper
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
+    - type: Skills
+      preset: AU14SkillPresetPlatoonRifleman
+    - type: SpotterWhitelist
+    - type: SniperWhitelist
+    - type: JobPrefix
+      prefix: rmc-job-prefix-forecon-spotter
+  hidden: false
+
+- type: entity
+  parent: AU14BaseMobSpeciesOrganicFORECON
+  suffix: AU14, FORECON, Detachment
+  id: AU14JobFORECONSniperDetachment
+  name: FORECON Sniper
+  components:
+  - type: Threat
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: rmc-job-name-forecon-spotter
+    description: rmc-job-description-forecon-detachment
+    reregister: false
+    job: AU14FORECONSniperDetachment
+    raffle:
+      settings: short
+    rules: au14-forecon-detachment-rules
+
+- type: startingGear
+  id: AU14GearFORECONSniperDetachment
+  equipment:
+    id: AU14IDCardFORECONSniperDetachment
+    ears: AU14HeadsetSectionLeader
+  inhand:
+  - AU14KitFORECONDetachmentUniform
+  - AU14KitFORECONDetachmentSniper
+
+- type: entity
+  parent: CMIDCardBase
+  id: AU14IDCardFORECONSniperDetachment
+  categories: [ HideSpawnMenu ]
+  name: FORECON Sniper ID card
+  components:
+  - type: PresetIdCard
+    job: AU14FORECONSniperDetachment
+  - type: ItemIFF
+    faction: GOVFOR
+
+- type: playTimeTracker
+  id: AU14FORECONSniperDetachment
