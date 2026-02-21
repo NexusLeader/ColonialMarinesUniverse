@@ -88,7 +88,7 @@
   description: Standard-issue UACG fatigues.
   components:
   - type: Sprite
-    sprite: _AU14/Clothing/Civilian/Uniforms/kahkiboilersuit.rsi
+    sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
   - type: UniformAccessoryHolder
     startingAccessories: [ AU14PatchUAFlag ]
 
@@ -145,3 +145,16 @@
     startingAccessories:
     - AU14PatchUAFlag
     - AU14PatchUSCM
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14ArmyJumpsuit
+  name: US army fatigues
+  description: A standard US Army fatigues. It has shards of light Kevlar to help protect against shrapnel.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14PatchUAFlag
+    - AU14PatchUSArmy

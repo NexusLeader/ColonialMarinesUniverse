@@ -20,5 +20,30 @@
     tags:
     - AU14SquadGROM
 
+- type: entity
+  parent: SquadBase
+  id: AU14SquadUACG
+  name: UACG
+  components:
+  - type: SquadTeam
+    color: "#32CD32"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: MarineAlpha
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_ua
+    canSupplyDrop: false
+    group: UACG
+  - type: Tag
+    tags:
+    - AU14SquadUACG
+
 - type: Tag
   id: AU14SquadGROM
+
+- type: Tag
+  id: AU14SquadUACG
