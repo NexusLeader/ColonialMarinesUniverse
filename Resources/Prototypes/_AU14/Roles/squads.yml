@@ -4,7 +4,7 @@
   name: GROM
   components:
   - type: SquadTeam
-    color: "#32CD32"
+    color: "#edae72"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
