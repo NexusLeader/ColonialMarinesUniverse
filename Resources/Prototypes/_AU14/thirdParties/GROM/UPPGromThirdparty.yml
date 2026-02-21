@@ -1,7 +1,7 @@
 - type: partySpawn
   id: UPPGROMSpawn
   leadersToSpawn:
-    AU14UPPGROMCommander: 1
+    AU14JobUPPGROMCommander: 1
     AU14JobUPPGROMSquadleader: 1
   gruntsToSpawn:
     AU14JobUPPGROMRifleman: 1
@@ -29,7 +29,7 @@
 - type: partySpawn
   id: UPPGROMSpawnAlt
   leadersToSpawn:
-    AU14UPPGROMCommander: 1
+    AU14JobUPPGROMCommander: 1
     AU14JobUPPGROMSquadleader: 1
   gruntsToSpawn:
     AU14JobUPPGROMRifleman: 0
@@ -57,7 +57,7 @@
 - type: partySpawn
   id: UPPGROMSpawnAlt2
   leadersToSpawn:
-    AU14UPPGROMCommander: 1
+    AU14JobUPPGROMCommander: 1
     AU14JobUPPGROMSquadleader: 1
   gruntsToSpawn:
     AU14JobUPPGROMRifleman: 0
