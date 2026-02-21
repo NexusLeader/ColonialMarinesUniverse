@@ -94,6 +94,6 @@
   name: UPP TD Loader ID card
   components:
   - type: PresetIdCard
-    job: AU14IDCardUPPTDLoader
+    job: AU14UPPTerritorialDefenseLoader
   - type: ItemIFF
     faction: GOVFOR
