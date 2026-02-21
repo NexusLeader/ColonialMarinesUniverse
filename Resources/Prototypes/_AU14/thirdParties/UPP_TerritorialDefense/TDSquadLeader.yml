@@ -21,6 +21,7 @@
   special:
   - !type:AddComponentSpecial
     components:
+    - type: SquadLeader
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
@@ -50,6 +51,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadTD
   - type: GhostRole
     makeSentient: true
     allowSpeech: true

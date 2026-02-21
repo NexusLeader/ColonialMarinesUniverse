@@ -52,6 +52,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadTD
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
