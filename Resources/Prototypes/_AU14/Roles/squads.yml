@@ -13,7 +13,7 @@
     radio: MarineAlpha
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
-      state: background_forecon
+      state: background_spp_alpha
     canSupplyDrop: false
     group: GROM
   - type: Tag
