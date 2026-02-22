@@ -710,9 +710,14 @@
         givePrefix: au14-job-prefix-govforspecialist-heavyantitankUPP
         isAppendPrefix: true
         isAppendSquadRoleName: true
-    - name: Type 71-F Assault Rifle
+    - name: M240 Incinerator #Placeholder for LPO80
       entries:
-      - id: RMCWeaponRifleType71Flamer
+      - id: RMCWeaponFlamer
+        amount: 1
+      - id: RMCPVECaseFlamerFuel
+        amount: 1
+      - id: RMCBackpackFlamer
+        name: G4-1 fueltank
         amount: 1
     - name: Type 88 Marksman kit
       entries:
