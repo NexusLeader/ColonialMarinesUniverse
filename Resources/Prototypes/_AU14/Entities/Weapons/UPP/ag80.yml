@@ -31,7 +31,7 @@
     - Burst
     - FullAuto
     recoilUnwielded: 4
-    scatterWielded: 10
+    scatterWielded: 8
     scatterUnwielded: 25
     baseFireRate: 3.9
     burstScatterMult: 1
@@ -262,7 +262,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 35
+        Piercing: 40
   - type: RMCProjectileDamageFalloff
     thresholds:
     - range: 24
@@ -286,7 +286,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 35
+        Piercing: 40
   - type: CMArmorPiercing
     amount: 45
 

@@ -49,7 +49,7 @@
     - colonyfall
   entrymethod: ground
   weight: 20
-  minplayers: 0
+  minplayers: 25
   maxplayers: 50
   GhostsNeeded: 3
   roundstart: true
