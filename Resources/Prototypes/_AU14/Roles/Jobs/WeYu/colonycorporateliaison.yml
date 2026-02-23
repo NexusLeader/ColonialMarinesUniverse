@@ -8,15 +8,15 @@
   ranks:
     RMCRankWeYaExecutiveSpecialist:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 180000 # 50 hours
     RMCRankWeYaSeniorExecutive:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 90000 # 25 hours
     RMCRankWeYaExecutive:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 36000 # 10 hours
     RMCRankWeYaJuniorExecutive: []
   startingGear: AU14GearCivilianCorporateLiaison
@@ -57,6 +57,7 @@
     shoes: RMCShoesLaceup
     id: AU14IDCardColonyCorporateLiaison
     outerClothing: AU14CivilianJacketOrangePufferJacket
+    ears: RMCHeadsetDistressPMCPVE
   inhand:
   - RMCPortableVendorCorporate
 

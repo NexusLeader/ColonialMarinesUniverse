@@ -557,7 +557,7 @@
     - name: Essential Equipment
       takeAll: CMUAREssentialEquipment
       entries:
-      - id: RMCSmartGunWhiteOut
+      - id: RMCSmartGunPMC
       - id: RMCScabbardMacheteSGFilled
       - id: RMCGlassesSmartGunSight
       - id: RMCPowerCellSmartgun
