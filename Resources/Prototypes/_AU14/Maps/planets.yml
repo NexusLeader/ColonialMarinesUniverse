@@ -110,7 +110,9 @@
     thirdparties:
     - ICRCReliefParty
     - TimeSharesSalesman
+    - UPPGROM
     - UPPGROMAlt
+    - UPPGROMAlt2
     - UACGLostTeam
     - LACNSniperteam
     - cultistThirdParty
@@ -348,9 +350,12 @@
     thirdparties:
     - ICRCReliefParty
     - cultistThirdParty
-    - UPPGROMAlt
     - UPPGROM
+    - UPPGROMAlt
     - UPPGROMAlt2
+    - UPPTDLostTeam
+    - PAPInvestigationPartyAlt
+    - PAPInvestigationParty
     threats:
     - cultistThreat
     - XenoThreat

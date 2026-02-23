@@ -13,6 +13,20 @@
     camouflageVariations: {}
 
 - type: entity
+  parent: CMBeltMarine
+  id: AU14BeltMarineArmyUPP
+  suffix: AU14
+  name: 6B80 pattern ammo rig
+  description: The 6B80 is an outdated but reliable ammo rig, formerly standard for the UPP Army. Its modular belt holds various munitions, still used by UPP security forces and reserves for its rugged design.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Belt/spp_brown.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Belt/spp_brown.rsi
+  - type: ItemCamouflage
+    camouflageVariations: {}
+
+- type: entity
   parent: CMBeltBaseStorage
   id: AU14BeltUtilityGeneralUPP
   name: Type 48-M general utility pouch
