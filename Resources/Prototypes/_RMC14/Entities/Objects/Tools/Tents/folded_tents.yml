@@ -53,6 +53,57 @@
           angle: 0
 
 - type: entity
+  parent: RMCTentUNMCStandardFolded
+  id: AU14TentBigFoldedSurgical
+  name: folded surgical tent
+  description: A large surgical field tent. This one comes equipped with advanced field surgery facilities. ENTRANCE TO THE SOUTH.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Tents/folded_tents.rsi
+    layers:
+    - state: base_tent
+    - state: med_base
+  - type: RMCDeployable
+    deployTime: 10
+    collapseTime: 10
+    deployArea:
+      !type:PhysShapeAabb
+      bounds: "-0.4,0.6,2.1,4.4" # The non-perfect rectangle allows the tent to be placed close to the walls
+    collapseToolPrototype: CMEntrenchingTool
+    areaBlockedCheck: true
+    failIfNotSurface: true
+    deploySetups:
+    - prototype: AU14TentBigMedical
+      neverRedeployableSetup: false
+      mode: ReactiveParental
+      anchor: true
+      offset: 0, 0
+      angle: 0
+    - prototype: AU14VendorBloodFieldPowered
+      mode: Reactive
+      offset: -1, 0.5
+    - prototype: AU14IVFoldable
+      mode: Reactive
+      offset: 0, 0.5
+    - prototype: RMCTableBrown
+      mode: Reactive
+      offset: -1, -0.5
+    - prototype: RMCTableBrown
+      mode: Reactive
+      offset: -1, -1.5
+    - prototype: RMCTableBrown
+      neverRedeployableSetup: true
+      anchor: false
+      offset: 1, 0.5
+    - prototype: CMSurgicalCaseFilled
+      neverRedeployableSetup: true
+      offset: 1, 0.5
+    - prototype: CMPortableSurgicalBed
+      neverRedeployableSetup: true
+      anchor: false
+      offset: 1, -0.5
+
+- type: entity
   parent: BaseItem
   id: RMCTentUNMCStandardCommandFolded
   name: folded command tent
@@ -82,13 +133,13 @@
           anchor: true
           offset: 0.2, 0
           angle: 0
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           neverRedeployableSetup: false
           mode: Default
           anchor: true
           offset: -0.5, 0.5
           angle: 0
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           neverRedeployableSetup: false
           mode: Default
           anchor: true
@@ -123,7 +174,7 @@
   parent: BaseItem
   id: RMCTentUNMCStandardMedicalFolded # TODO RMC14: Bonus to speed up operations and reduce pain
   name: folded medical tent
-  description: A standard medical tent. This one comes equipped with advanced field surgery facilities. Unfold in a suitable location to maximize health gains. Surgical Tray not included. ENTRANCE TO THE SOUTH.
+  description: A standard medical tent. Unfold in a suitable location to maximize health gains. ENTRANCE TO THE SOUTH.
   components:
     - type: Item
       size: Huge
@@ -141,17 +192,27 @@
         - prototype: RMCTentUNMCStandardMedical
           mode: ReactiveParental
           offset: 0.2, 0
-        - prototype: ColMarTechMarineMedicalPowered
+        - prototype: AU14GeneralMedicalVendorLightAlwaysPowered
           mode: Reactive
           offset: -0.5, 0.5
-        - prototype: CMIV
+
+        - prototype: AU14IVFoldable
+          mode: Reactive
+          offset: -0.5, -0.5
+
+        - prototype: RMCTableBrown
           mode: Reactive
           offset: 0.5, 0.5
-        - prototype: CMRollerBed
+
+        - prototype: RMCRollerBedHospitalSheet
           neverRedeployableSetup: true
           anchor: false
           offset: 0.5, -0.5
 
+        - prototype: RMCRollerBedHospital
+          neverRedeployableSetup: true
+          anchor: false
+          offset: 0.5, -1.5
 
 # Extended Tents
 - type: entity
@@ -209,9 +270,9 @@
         - prototype: CMChair
           offset: -0.5, 0.5
           angle: 270
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, 0.5
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, -0.5
         - prototype: RMCRotaryPhoneReqTent
           mode: Reactive
@@ -249,11 +310,11 @@
         - prototype: RMCTentUNMCExtendedMess
           mode: ReactiveParental
           offset: -0.2, 0
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -0.5, 0.5
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, 0.5
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, -0.5
         - prototype: CMMicrowaveLockedPowered
           mode: Reactive
@@ -307,9 +368,9 @@
         - prototype: CMChair
           offset: -0.5, 0.5
           angle: 270
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, 0.5
-        - prototype: CMTable
+        - prototype: RMCTableBrown
           offset: -1.5, -0.5
         - prototype: RMCMonitorCameraAlmayer # TODO RMC14: replace with crime record console
           mode: Reactive
