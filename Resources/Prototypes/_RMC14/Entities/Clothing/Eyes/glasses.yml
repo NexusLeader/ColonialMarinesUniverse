@@ -91,9 +91,6 @@
       map: [ "icon" ]
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/m42_scoutsight.rsi
-  - type: NightVisionItem
-    skills:
-      RMCSkillSmartGun: 1
   - type: ClothingRequireEquipped
     whitelist:
       components:
