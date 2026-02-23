@@ -1,0 +1,108 @@
+- type: job
+  parent: CMJobBase
+  id: AU14USArmyHeavyGunner
+  name: au14-job-name-usarmy-hg
+  description: au14-job-description-usarmy
+  playTimeTracker: AU14JobUSArmyHeavyGunner
+  ranks:
+    USArmy_Sergeant:
+    - !type:RoleTimeRequirement
+      role: AU14JobUSArmyHeavyGunner
+      time: 36000 #10 hours
+    USArmy_Corporal:
+    - !type:RoleTimeRequirement
+      role: AU14JobUSArmyHeavyGunner
+      time: 18000 #5 hours
+    USArmy_Specialist: []
+  spawnMenuRoleName: US Army Heavy Gunner (AU14, surv)
+  startingGear: AU14GearUSArmyHeavyGunner
+  greeting: au14-usarmy-greeting
+  icon: "AU14JobIconUSArmyHeavyGunner"
+  joinNotifyCrew: false
+  supervisors: cm-job-name-squad-leader
+  accessGroups:
+  - AU14GovforSquad
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: smartgunner
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_ua
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
+    - type: AssignSquad
+      whitelist:
+        tags:
+        - AU14SquadUSArmy
+    - type: Skills
+      preset: AU14SkillPresetPlatoonAutomaticRifleman
+    - type: SpotterWhitelist
+    - type: JobPrefix
+      prefix: au14-job-prefix-usarmy-hg
+  hidden: false
+
+- type: entity
+  parent: AU14BaseMobSpeciesOrganicUSArmy
+  id: AU14JobUSArmyHeavyGunner
+  name: US Army Heavy Gunner
+  components:
+  - type: Threat
+  - type: GhostTakeoverAvailable
+  - type: GhostRoleApplySpecial
+    squad: AU14SquadUSArmy
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: au14-job-name-usarmy-hg
+    description: au14-job-description-usarmy
+    reregister: false
+    job: AU14USArmyHeavyGunner
+    raffle:
+      settings: short
+    rules: au14-usarmy-rules
+
+- type: startingGear
+  id: AU14GearUSArmyHeavyGunner
+  equipment:
+    id: AU14IDCardUSArmyHeavyGunner
+    outerClothing: AU14ArmorSmartGunJungleCombatHarnessForeconFilled
+    jumpsuit: AU14ArmyJumpsuitCavalry
+    gloves: AU14PVEHandsInsulatedBlackMarine
+    shoes: AU14BootsUSArmyFilled
+    head: AU14HelmetUSArmy
+    belt: AU14BeltSmartGunOperatorPistolForeconFilled
+    pocket1: AU14PouchIFAKFill
+    pocket2: AU14PouchIFAKFill
+    ears: AU14HeadsetUSArmy
+    suitstorage: RMCSmartGun
+  inhand:
+    - RMCTacticalPrybar
+
+- type: entity
+  parent: CMIDCardBase
+  id: AU14IDCardUSArmyHeavyGunner
+  categories: [ HideSpawnMenu ]
+  name: US Army Heavy Gunner Operator ID card
+  components:
+  - type: PresetIdCard
+    job: AU14USArmyHeavyGunner
+  - type: ItemIFF
+    faction: GOVFOR
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: AU14JobIconUSArmyHeavyGunner
+  icon:
+    sprite: _AU14/Interface/job_icons.rsi
+    state: hudsquad_mmg
+
+- type: playTimeTracker
+  id: AU14JobUSArmyHeavyGunner

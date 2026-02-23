@@ -158,3 +158,17 @@
     startingAccessories:
     - AU14PatchUAFlag
     - AU14PatchUSArmy
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14ArmyJumpsuitCavalry
+  suffix: Cavalry
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingPouchForecon
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14Patch1stCav
+    - AU14PatchUSArmy

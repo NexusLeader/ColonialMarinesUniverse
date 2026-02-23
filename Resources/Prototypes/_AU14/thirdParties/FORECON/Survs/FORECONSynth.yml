@@ -5,10 +5,22 @@
   description: rmc-job-description-forecon
   playTimeTracker: AU14JobFORECONSynth
   ranks:
-    RMCRankChiefWarrantOfficer:
+    RMCRankChiefWarrantOfficer5:
+    - !type:RoleTimeRequirement
+      role: AU14JobFORECONSynth
+      time: 252000 #70 hours
+    RMCRankChiefWarrantOfficer4:
+    - !type:RoleTimeRequirement
+      role: AU14JobFORECONSynth
+      time: 180000 #50 hours
+    RMCRankChiefWarrantOfficer3:
     - !type:RoleTimeRequirement
       role: AU14JobFORECONSynth
       time: 36000 #10 hours
+    RMCRankChiefWarrantOfficer:
+    - !type:RoleTimeRequirement
+      role: AU14JobFORECONSynth
+      time: 18000 #5 hours
     RMCRankWarrantOfficer: []
   spawnMenuRoleName: FORECON Synthetic (AU14, surv)
   startingGear: AU14GearFORECONSynth
@@ -33,7 +45,7 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - AU14SquadGROM # for future when there's a dedicated map for them, right now does nothing
+        - SquadFORECON
     - type: Skills
       skills:
         RMCSkillCqc: 5

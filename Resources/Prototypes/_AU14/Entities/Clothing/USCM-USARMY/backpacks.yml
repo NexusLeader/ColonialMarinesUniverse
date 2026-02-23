@@ -205,3 +205,21 @@
           Ring: { state: ring }
           Ear: { state: ear }
   - type: Undisposable
+
+- type: entity
+  parent: RMCSatchelMarineLogisticsBig
+  id: AU14MolleBackpack
+  name: M2 MOLLE Backpack
+  description: Tactical backpack manufactured by one of the Alphatech subsidiaries. Very lightweight backpack that utilizes UA standard MOLLE fastening systems, which allows easy access and optimal weight distribution. Standard issue heavy duty pack for US army troopers.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Back/molle.rsi
+
+- type: entity
+  parent: CMSatchelMarine
+  id: AU14MolleSatchel
+  name: M1 MOLLE Satchel
+  description: Tactical satchel manufactured by one of the Alphatech subsidiaries. Very lightweight beltbag variant that utilizes UA standard MOLLE fastening systems. Standard issue pack for US army troopers.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Back/molle_satchel.rsi

@@ -96,3 +96,30 @@
     sprite: _AU14/Clothing/JungleHats/cap.rsi
   - type: Clothing
     sprite: _AU14/Clothing/JungleHats/cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14BeretUSArmy
+  name: US Army beret
+  description: The proud tradition of the US Army 1st Air Cav using black berets for their troopers is maintained since the 20th century.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Hats/black_beret.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Hats/black_beret.rsi
+
+- type: entity
+  parent: CMHeadBeretCOBlack
+  id: AU14BeretUSArmyMajor
+  name: army major black beret
+
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14HatUSArmy
+  name: US cavalry hat
+  description: Also known as Cavalry Stetson, this hat is a symbol of tradition and remembrence of heroism that is ongoing from as far as 19th century. Even though cavalry divison had cashed in its horses for choppers, choppers for dropships, and gone tear-assing around space, looking for the shit.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Hats/cavalry.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/US_Army/Hats/cavalry.rsi

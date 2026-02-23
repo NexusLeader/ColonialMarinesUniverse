@@ -392,3 +392,21 @@
     leaderRsi:
       sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
       state: snpr-armor
+
+- type: entity
+  parent: AU14BaseArmor
+  id: AU14ArmorUSArmy
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
+
+- type: entity
+  parent: CMArmorM3VLSynth
+  id: AU14ArmorUSArmySynth
+  name: Synthetic Body Armor System
+  description: This is a variant of the Personnel Body Armor System, it has been modified extensively to be used by US Army Synthetics. It offers light protection, maximum mobility and more internal storage than its USCM counterpart. The cost of this item could outfit an entire squad of USCM Marines, but you are worth this cost.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Armor/synth.rsi

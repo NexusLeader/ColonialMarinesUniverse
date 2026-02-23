@@ -64,6 +64,28 @@
     tags:
     - AU14SquadUACG
 
+- type: entity
+  parent: SquadBase
+  id: AU14SquadUSArmy
+  name: US Army
+  components:
+  - type: SquadTeam
+    color: "#edae72"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: MarineAlpha
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_ua
+    canSupplyDrop: false
+    group: USArmy
+  - type: Tag
+    tags:
+    - AU14SquadUSArmy
+
 - type: Tag
   id: AU14SquadUACG
 
@@ -72,3 +94,6 @@
 
 - type: Tag
   id: AU14SquadTD
+
+- type: Tag
+  id: AU14SquadUSArmy

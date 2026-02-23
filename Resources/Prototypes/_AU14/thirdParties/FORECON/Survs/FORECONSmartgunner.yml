@@ -40,12 +40,12 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - RMCSquadFORECON # for future when there's a dedicated map for them, right now does nothing
+        - RMCSquadFORECON
     - type: Skills
       preset: AU14SkillPresetPlatoonAutomaticRifleman
     - type: SpotterWhitelist
     - type: JobPrefix
-      prefix: au-14-job-prefix-uppgrom-machinegunner
+      prefix: cm-job-prefix-gun-operator
   hidden: false
 
 - type: entity

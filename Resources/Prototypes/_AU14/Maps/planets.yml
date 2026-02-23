@@ -69,6 +69,9 @@
     opforinship: true
     daycycleenabled: true
     thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
@@ -218,7 +221,10 @@
     daycycleenabled: true
     threats:
     - XenoThreat
-   # thirdparties:
+    thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
    # - cultistThirdParty
 
 - type: entity
@@ -248,6 +254,9 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - NSPAInvestigationPartyArmored

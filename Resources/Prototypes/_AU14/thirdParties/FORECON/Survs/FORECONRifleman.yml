@@ -40,7 +40,7 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - RMCSquadFORECON # for future when there's a dedicated map for them, right now does nothing
+        - RMCSquadFORECON
     - type: Skills
       preset: AU14SkillPresetPlatoonRifleman
     - type: SpotterWhitelist

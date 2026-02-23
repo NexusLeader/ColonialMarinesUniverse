@@ -242,7 +242,7 @@
       - CMEncryptionKeyColony
   - type: RMCHeadset
     channels:
-    - MarineAlpha
+    - UASOF
   - type: GrantSquadLeaderTracker
     defaultMode: FORECONCommandingOfficer
     trackerModes:
