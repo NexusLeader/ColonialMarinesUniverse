@@ -113,14 +113,15 @@
     thirdparties:
     - ICRCReliefParty
     - TimeSharesSalesman
-    - NSPAInvestigationPartyArmored
-    - NSPAInvestigationParty
-    - NSPAInvestigationPartyAlt
+    - UPPGROM
+    - UPPGROMAlt
+    - UPPGROMAlt2
+    - UACGLostTeam
     - LACNSniperteam
-    - RMCRRT
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
+    - cultistThirdPartyNoQueen
 
 - type: entity
   id: AUPlanetLV624
@@ -156,6 +157,7 @@
     - LACNSniperteam
     - RMCRRT
     - cultistThirdParty
+    - cultistThirdPartyNoQueen
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
     threats:
@@ -324,14 +326,14 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
-    - ICRCReliefParty
-    - TimeSharesSalesman
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
+    - UPPGROMAlt
+    - cultistThirdPartyNoQueen
 
 - type: entity
   id: AUPlanetSorokyne
-  name: au14sorokyne
+  name: Sorokyne Strata
   components:
   - type: RMCPlanetMapPrototype
     votename: "Sorokyne Strata"
@@ -354,6 +356,12 @@
     thirdparties:
     - ICRCReliefParty
     - cultistThirdParty
+    - UPPGROM
+    - UPPGROMAlt
+    - UPPGROMAlt2
+    - UPPTDLostTeam
+    - PAPInvestigationPartyAlt
+    - PAPInvestigationParty
     threats:
     - cultistThreat
     - XenoThreat

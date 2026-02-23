@@ -104,6 +104,23 @@
   - type: CMHardArmor
 
 - type: entity
+  parent: RMCBaseArmor
+  id: AU14BaseArmorVest # For shitty armor, f.e. 6B80 of UPP's reservists
+  name: Example
+  description: Example
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.725
+    sprintModifier: 0.725
+  - type: CMArmor
+    bullet: 10
+    bio: 20
+    explosionArmor: 10
+  - type: CMHardArmor
+
+- type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleOne
   name: M3 pattern jungle smooth USCM armor

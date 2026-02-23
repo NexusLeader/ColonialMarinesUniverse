@@ -14,7 +14,7 @@
       role: AU14JobUPPGROMSupportTech
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: UPP GROM Support Tech
+  spawnMenuRoleName: UPP GROM Support Tech (Survivor)
   startingGear: AU14GearUPPGROMSupportTech
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
@@ -28,7 +28,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: spp_med
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -37,7 +37,7 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - AU14SquadGROM # for future when there's a dedicated map for them, right now does nothing
+        - AU14SquadGROM
     - type: Skills
       skills:
         RMCSkillEngineer: 1
@@ -64,6 +64,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -96,6 +97,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUPPGROMSupportTech
+  categories: [ HideSpawnMenu ]
   name: UPP GROM Support Tech ID card
   components:
   - type: PresetIdCard

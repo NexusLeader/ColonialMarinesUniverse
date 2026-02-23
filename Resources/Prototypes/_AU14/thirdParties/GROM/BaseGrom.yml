@@ -1,6 +1,7 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: AU14BaseMobSpeciesOrganicUPPGROM
+  suffix: AU14, UPP, GROM
   abstract: true
   components:
   - type: Threat
@@ -244,3 +245,8 @@
   - type: RMCHeadset
     channels:
     - UPPSOF
+  - type: GrantSquadLeaderTracker
+    defaultMode: GROMCommandingOfficer
+    trackerModes:
+    - GROMCommandingOfficer
+    - SquadLeader

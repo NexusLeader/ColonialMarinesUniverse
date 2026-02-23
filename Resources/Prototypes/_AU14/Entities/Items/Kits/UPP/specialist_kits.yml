@@ -43,7 +43,7 @@
     sprite: _RMC14/Objects/Storage/procase_mini.rsi
   - type: StorageFill
     contents:
-      - id: RMCPVECaseType88
+      - id: RMCType88SniperRifle
         amount: 1
       - id: RMCMagazineSniperType88
         amount: 8

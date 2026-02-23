@@ -4,7 +4,7 @@
   name: GROM
   components:
   - type: SquadTeam
-    color: "#32CD32"
+    color: "#edae72"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
@@ -13,17 +13,17 @@
     radio: MarineAlpha
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
-      state: background_forecon
+      state: background_spp_alpha
     canSupplyDrop: false
-    group: FORECON
+    group: GROM
   - type: Tag
     tags:
     - AU14SquadGROM
 
 - type: entity
   parent: SquadBase
-  id: AU14SquadUACG
-  name: Colonial Guard
+  id: AU14SquadTD
+  name: Territorial Defense
   components:
   - type: SquadTeam
     color: "#edae72"
@@ -35,15 +35,15 @@
     radio: MarineAlpha
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
-      state: background_ua
+      state: background_spp
     canSupplyDrop: false
-    group: UACG
+    group: TD
   - type: Tag
     tags:
-    - AU14SquadUACG
+    - AU14SquadTD
 
 - type: Tag
   id: AU14SquadGROM
 
 - type: Tag
-  id: AU14SquadUACG
+  id: AU14SquadTD
