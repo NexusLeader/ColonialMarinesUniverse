@@ -14,7 +14,7 @@
       role: AU14JobUPPGROMRifleman
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: UPP GROM Rifleman
+  spawnMenuRoleName: UPP GROM Rifleman (Survivor)
   startingGear: AU14GearUPPGROMRifleman
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
@@ -28,7 +28,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: spp_pvt
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -52,6 +52,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -82,6 +83,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUPPGROMRifleman
+  categories: [ HideSpawnMenu ]
   name: UPP GROM Rifleman ID card
   components:
   - type: PresetIdCard

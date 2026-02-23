@@ -14,7 +14,7 @@
       role: AU14JobUPPGROMMachinegunner
       time: 18000 #5 hours
     UPP_Plutonowy: []
-  spawnMenuRoleName: UPP GROM Machinegunner
+  spawnMenuRoleName: UPP GROM Machinegunner (Survivor)
   startingGear: AU14GearUPPGROMMachinegunner
   greeting: au14-uppgrom-greeting
   icon: "CMJobIconEmpty"
@@ -28,7 +28,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: spp_cont
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -52,6 +52,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -82,6 +83,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUPPGROMMachinegunner
+  categories: [ HideSpawnMenu ]
   name: UPP GROM Machinegunner ID card
   components:
   - type: PresetIdCard

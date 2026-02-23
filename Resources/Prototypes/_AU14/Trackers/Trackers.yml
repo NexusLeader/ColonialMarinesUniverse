@@ -1,0 +1,4 @@
+- type: trackerMode
+  id: GROMCommandingOfficer
+  job: AU14UPPGROMCommander
+  alert: SquadTrackerCommandingOfficer
