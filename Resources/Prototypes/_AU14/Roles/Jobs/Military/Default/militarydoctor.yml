@@ -65,6 +65,7 @@
     eyes: RMCGlassesMedicalHUDGlasses
   inhand:
   - AU14CMDefibrillator
+  - AU14TentBigFoldedSurgical
 
 - type: entity
   parent: CMSpawnPointJobBase

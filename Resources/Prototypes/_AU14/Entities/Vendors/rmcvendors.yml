@@ -390,6 +390,7 @@
       - id: ClothingNeckStethoscope
       - id: CMRollerBedSpawnFolded
       - id: RMCMedevacStretcherFolded
+      - id: AU14IVFoldable
       - id: CMSurgicalLine
       - id: CMSynthGraft
     - name: Medical Pouches
