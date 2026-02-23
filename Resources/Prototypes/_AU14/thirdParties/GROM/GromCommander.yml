@@ -10,10 +10,10 @@
       role: AU14JobUPPGROMCommander
       time: 18000 # 5 hours
     UPP_Captain: []
-  spawnMenuRoleName: UPP GROM Commander
+  spawnMenuRoleName: UPP GROM Commander (Survivor)
   startingGear: AU14GearUPPGROMCommander
   greeting: au14-uppgrom-greeting
-  icon: "CMJobIconEmpty"
+  icon: "AU14JobIconUPPGROMCommander"
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
@@ -24,7 +24,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: leader
+        state: spp_co
     - type: NpcFactionMember
       factions:
       - GOVFOR
@@ -50,6 +50,7 @@
   - type: Threat
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
+    squad: AU14SquadGROM
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
@@ -79,6 +80,7 @@
 
 - type: entity
   parent: CMIDCardBase
+  categories: [ HideSpawnMenu ]
   id: AU14IDCardUPPGROMCommander
   name: UPP GROM Commander ID card
   components:
@@ -86,6 +88,13 @@
     job: AU14UPPGROMCommander
   - type: ItemIFF
     faction: GOVFOR
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: AU14JobIconUPPGROMCommander
+  icon:
+    sprite: _RMC14/Interface/cm_job_icons.rsi
+    state: upp_co
 
 - type: playTimeTracker
   id: AU14JobUPPGROMCommander
