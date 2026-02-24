@@ -12,3 +12,4 @@
       Female: RMCFemaleHuman
   - type: FixedIdentity
     name: cm-chatsan-replacement-human
+  - type: FootPrints # WD EDIT
