@@ -38,8 +38,6 @@
     - AUPlanetLV747
     - AUPlanetLV759
     - AUPlanetSorokyne
-
-   # - AUPlanetStableGarrison
   rules:
   - AuVoteRule
   - PlatoonSpawn
