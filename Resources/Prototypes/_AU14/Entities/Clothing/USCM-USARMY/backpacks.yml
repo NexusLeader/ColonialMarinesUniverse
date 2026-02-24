@@ -214,6 +214,8 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Back/molle.rsi
+  - type: ItemCamouflage
+    camouflageVariations: {}
 
 - type: entity
   parent: CMSatchelMarine
@@ -223,3 +225,5 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Back/molle_satchel.rsi
+  - type: ItemCamouflage
+    camouflageVariations: {}

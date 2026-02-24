@@ -73,6 +73,17 @@
 # Equipment
 
 - type: entity
+  parent: RMCBeltHolsterPistol
+  id: AU14BeltHolsterPistolUSArmyFull
+  suffix: Full, AU14, US Army
+  components: 
+  - type: StorageFill
+    contents:
+    - id: RMCMK80
+    - id: CMMagazinePistolMK80
+    amount: 6
+
+- type: entity
   parent: AU14MolleBackpack
   id: AU14AU14MolleBackpackCOFull
   suffix: Full, AU14, US Army
@@ -90,7 +101,7 @@
   id: AU14HeadsetUSArmy
   name: US Army headset
   description: Issued to US Army units.
-  suffix: GROM
+  suffix: US Army
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/headsets.rsi

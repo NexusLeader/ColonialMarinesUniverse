@@ -172,3 +172,30 @@
     startingAccessories:
     - AU14Patch1stCav
     - AU14PatchUSArmy
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14ArmyJumpsuitArmored
+  suffix: Armored
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingPouchForecon
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14Patch32ndAB
+    - AU14PatchUSArmy
+
+- type: entity
+  parent: CMJumpsuitMarineTanker
+  id: AU14ArmyJumpsuitTanker
+  name: US army tanker fatigues
+  description: A standard US Army fatigues. It has shards of light Kevlar to help protect against shrapnel.
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingPouchForecon
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - AU14PatchUAFlag
+    - AU14PatchUSArmy

@@ -10,7 +10,7 @@
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UPPSOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_spp_alpha
@@ -26,13 +26,13 @@
   name: Territorial Defense
   components:
   - type: SquadTeam
-    color: "#edae72"
+    color: "#ed7e57"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UPPSOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_spp
@@ -54,7 +54,7 @@
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UASOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_ua
@@ -70,13 +70,13 @@
   name: US Army
   components:
   - type: SquadTeam
-    color: "#edae72"
+    color: "#2e4f68"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UASOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_ua

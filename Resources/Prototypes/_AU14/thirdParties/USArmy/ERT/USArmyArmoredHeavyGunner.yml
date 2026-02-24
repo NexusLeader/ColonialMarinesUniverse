@@ -1,6 +1,15 @@
 - type: job
+  parent: CMJobBase
+  id: AU14USArmyHeavyGunnerBase
+  name: au14-job-name-usarmy-hg
+  description: au14-job-description-usarmy
+  playTimeTracker: AU14JobUSArmyHeavyGunner
+  basePlaytimeTracker: true
+  hidden: true
+
+- type: job
   parent: AU14USArmyHeavyGunnerBase
-  id: AU14USArmyHeavyGunner
+  id: AU14USArmyHeavyGunnerArmored
   name: au14-job-name-usarmy-hg
   description: au14-job-description-usarmy
   ranks:
@@ -13,8 +22,8 @@
       role: AU14JobUSArmyHeavyGunner
       time: 18000 #5 hours
     USArmy_Specialist: []
-  spawnMenuRoleName: US Army Heavy Gunner (AU14, surv)
-  startingGear: AU14GearUSArmyHeavyGunner
+  spawnMenuRoleName: US Army Heavy Gunner (AU14, 3rd Party)
+  startingGear: AU14GearUSArmyHeavyGunnerArmored
   greeting: au14-usarmy-greeting
   icon: "AU14JobIconUSArmyHeavyGunner"
   joinNotifyCrew: false
@@ -49,8 +58,8 @@
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
-  id: AU14JobUSArmyHeavyGunner
-  name: US Army Heavy Gunner
+  id: AU14JobUSArmyHeavyGunnerArmored
+  name: US Army Heavy Gunner (32nd Arm)
   components:
   - type: Threat
   - type: GhostTakeoverAvailable
@@ -63,17 +72,17 @@
     name: au14-job-name-usarmy-hg
     description: au14-job-description-usarmy
     reregister: false
-    job: AU14USArmyHeavyGunner
+    job: AU14USArmyHeavyGunnerArmored
     raffle:
       settings: short
     rules: au14-usarmy-rules
 
 - type: startingGear
-  id: AU14GearUSArmyHeavyGunner
+  id: AU14GearUSArmyHeavyGunnerArmored
   equipment:
     id: AU14IDCardUSArmyHeavyGunner
     outerClothing: AU14ArmorSmartGunJungleCombatHarnessForeconFilled
-    jumpsuit: AU14ArmyJumpsuitCavalry
+    jumpsuit: AU14ArmyJumpsuitArmored
     gloves: AU14PVEHandsInsulatedBlackMarine
     shoes: AU14BootsUSArmyFilled
     head: AU14HelmetUSArmy
@@ -87,3 +96,26 @@
     - RMCMK80
     - CMMagazinePistolMK80
     - RMCMagazineSmartGun
+    - RMCMagazineSmartGun
+    - RMCMagazineSmartGun
+
+- type: entity
+  parent: CMIDCardBase
+  id: AU14IDCardUSArmyHeavyGunner
+  categories: [ HideSpawnMenu ]
+  name: US Army Heavy Gunner Operator ID card
+  components:
+  - type: PresetIdCard
+    job: AU14USArmyHeavyGunner
+  - type: ItemIFF
+    faction: GOVFOR
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: AU14JobIconUSArmyHeavyGunner
+  icon:
+    sprite: _AU14/Interface/job_icons.rsi
+    state: hudsquad_mmg
+
+- type: playTimeTracker
+  id: AU14JobUSArmyHeavyGunner

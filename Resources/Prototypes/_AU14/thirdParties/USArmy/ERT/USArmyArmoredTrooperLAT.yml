@@ -1,22 +1,22 @@
 - type: job
-  parent: AU14USArmyHeavyGunnerBase
-  id: AU14USArmyHeavyGunner
-  name: au14-job-name-usarmy-hg
+  parent: AU14USArmyTrooperBase
+  id: AU14USArmyTrooperArmoredLAT
+  name: au14-job-name-usarmy-trooper-lat
   description: au14-job-description-usarmy
   ranks:
-    USArmy_Sergeant:
+    USArmy_Specialist:
     - !type:RoleTimeRequirement
-      role: AU14JobUSArmyHeavyGunner
+      role: AU14JobUSArmyTrooper
       time: 36000 #10 hours
-    USArmy_Corporal:
+    USArmy_PFC:
     - !type:RoleTimeRequirement
-      role: AU14JobUSArmyHeavyGunner
+      role: AU14JobUSArmyTrooper
       time: 18000 #5 hours
-    USArmy_Specialist: []
-  spawnMenuRoleName: US Army Heavy Gunner (AU14, surv)
-  startingGear: AU14GearUSArmyHeavyGunner
+    USArmy_Private2: []
+  spawnMenuRoleName: US Army Trooper LAT (AU14, 3rd Party)
+  startingGear: AU14GearUSArmyTrooperArmoredLAT
   greeting: au14-usarmy-greeting
-  icon: "AU14JobIconUSArmyHeavyGunner"
+  icon: "AU14JobIconUSArmyTrooper"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader
   accessGroups:
@@ -27,7 +27,7 @@
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
-        state: smartgunner
+        state: private
       background:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: background_ua
@@ -41,16 +41,16 @@
         tags:
         - AU14SquadUSArmy
     - type: Skills
-      preset: AU14SkillPresetPlatoonAutomaticRifleman
+      preset: AU14SkillPresetPlatoonRifleman
     - type: SpotterWhitelist
     - type: JobPrefix
-      prefix: au14-job-prefix-usarmy-hg
-  hidden: true
+      prefix: au14-job-prefix-usarmy-trooper
+  hidden: false
 
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
-  id: AU14JobUSArmyHeavyGunner
-  name: US Army Heavy Gunner
+  id: AU14JobUSArmyTrooperArmoredLAT
+  name: US Army Trooper LAT (32nd Arm)
   components:
   - type: Threat
   - type: GhostTakeoverAvailable
@@ -60,30 +60,38 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: au14-job-name-usarmy-hg
+    name: au14-job-name-usarmy-trooper
     description: au14-job-description-usarmy
     reregister: false
-    job: AU14USArmyHeavyGunner
+    job: AU14USArmyTrooperArmoredLAT
     raffle:
       settings: short
     rules: au14-usarmy-rules
 
 - type: startingGear
-  id: AU14GearUSArmyHeavyGunner
+  id: AU14GearUSArmyTrooperArmoredLAT
   equipment:
-    id: AU14IDCardUSArmyHeavyGunner
-    outerClothing: AU14ArmorSmartGunJungleCombatHarnessForeconFilled
-    jumpsuit: AU14ArmyJumpsuitCavalry
+    id: AU14IDCardUSArmyTrooper
+    outerClothing: AU14ArmorUSArmyNormal
+    jumpsuit: AU14ArmyJumpsuitArmored
     gloves: AU14PVEHandsInsulatedBlackMarine
     shoes: AU14BootsUSArmyFilled
     head: AU14HelmetUSArmy
-    belt: RMCBeltSmartGunOperatorPistol
+    mask: RMCMaskKeffiyehBlack
+    belt: AU14BeltHolsterPistolUSArmyFull
     pocket1: AU14PouchIFAKFill
     pocket2: AU14PouchIFAKFill
+    back: AU14MolleBackpack
     ears: AU14HeadsetUSArmy
-    suitstorage: RMCSmartGun
+    suitstorage: RMCWeaponRifleM54C
   storage:
-    belt:
-    - RMCMK80
-    - CMMagazinePistolMK80
-    - RMCMagazineSmartGun
+    head:
+    - AU14GogglesM1A1Ballistic
+    back:
+    - CMMagazineRifleM54C
+    - CMMagazineRifleM54C
+    - CMMagazineRifleM54C
+    - CMMagazineRifleM54C
+    - CMMagazineRifleM54C
+    - RMCWeaponLauncherDisposableFolded
+    - RMCWeaponLauncherDisposableFolded

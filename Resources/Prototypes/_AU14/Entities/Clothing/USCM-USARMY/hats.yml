@@ -111,7 +111,7 @@
 - type: entity
   parent: CMHeadBeretCOBlack
   id: AU14BeretUSArmyMajor
-  name: army major black beret
+  name: army commander black beret
 
 - type: entity
   parent: ClothingHeadBase

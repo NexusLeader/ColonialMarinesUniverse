@@ -173,7 +173,7 @@
 
 # Generals
 - type: rank
-  id: USArmy_MajorGeneral
+  id: USArmy_GeneralMajor
   name: Major-General
   prefix: GenMaj.
   paygrade: O8

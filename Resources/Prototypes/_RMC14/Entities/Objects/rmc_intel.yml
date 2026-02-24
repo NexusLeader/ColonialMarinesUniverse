@@ -643,6 +643,19 @@
           icon:
             sprite: _RMC14/Interface/tech_tree.rsi
             state: beacon
+        - name: US Army 32nd ArmDiv reinforcements
+          description: Summon a squad from US Army 32nd Armored Division.
+          cost: 4
+          repurchasable: false
+          events:
+          - !type:TechPartySpawnEvent
+            thirdPartyId: RMCRRT
+          - !type:TechAnnounceEvent
+            author: INTEL OPERATIONS
+            message: A US Army 32nd Armored Division squad has been dispatched to aid with the operation.
+          icon:
+            sprite: _RMC14/Interface/tech_tree.rsi
+            state: beacon
 
 - type: entity
   id: RMCIntelTechTree_govfor

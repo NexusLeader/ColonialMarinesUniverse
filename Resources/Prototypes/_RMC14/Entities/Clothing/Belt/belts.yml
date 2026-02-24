@@ -1043,8 +1043,8 @@
 - type: entity
   parent: ClothingBeltBase # Can't have storage slots on this one
   id: RMCBeltHolsterSMG
-  name: M276 pattern M63 holster rig
-  description: Special issue variant of the M276 designed to holster a M63 submachine gun.
+  name: M276 pattern M39 holster rig
+  description: Special issue variant of the M276 designed to holster a M39 submachine gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_smg.rsi
@@ -1125,8 +1125,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltHolsterSMGPouch
-  name: M276 pattern M63 holster rig
-  description: Special issue variant of the M276 designed to holster a M63 submachine gun and two spare magazines. Uncommonly issued to USCM support and specialist personnel.
+  name: M276 pattern M39 holster rig
+  description: Special issue variant of the M276 designed to holster a M39 submachine gun and two spare magazines. Uncommonly issued to USCM support and specialist personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smg_mags.rsi

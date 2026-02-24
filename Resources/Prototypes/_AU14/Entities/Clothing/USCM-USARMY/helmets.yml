@@ -145,7 +145,7 @@
   parent: RMCMarineHelmetBase
   id: AU14HelmetGhillie
   name: M45 ghillie helmet
-  description: A lightweight M45 helmet with ghillie coif used by Marine snipers on recon missions.
+  description: A lightweight M45 helmet with ghillie coif used by UA snipers on recon missions.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Helmets/ghillie.rsi

@@ -39,6 +39,7 @@
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
@@ -72,6 +73,7 @@
     - USArmy
     - USArmyAlt
     - USArmyAlt2
+    - USArmyTank
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
@@ -79,6 +81,7 @@
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
@@ -119,6 +122,7 @@
     - UPPGROM
     - UPPGROMAlt
     - UPPGROMAlt2
+    - USArmyTank
     - UACGLostTeam
     - LACNSniperteam
     - cultistThirdParty
@@ -155,10 +159,12 @@
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
+    - USArmyTank
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - cultistThirdPartyNoQueen
     - CMBInvestigationParty
@@ -264,6 +270,7 @@
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
 
 - type: entity
   id: AUPlanetLV327
@@ -298,6 +305,7 @@
     - FORECON
     - FORECONAlt
     - FORECONAlt2
+    - USArmyTank
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam

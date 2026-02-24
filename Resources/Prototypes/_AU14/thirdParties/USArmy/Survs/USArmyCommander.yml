@@ -82,12 +82,10 @@
     pocket2: AU14PouchIFAKFill
     back: AU14AU14MolleBackpackCOFull
     ears: AU14HeadsetUSArmy
-    suitstorage: RMCWeaponRifleM54C
+    suitstorage: RMCWeaponRifleM54CFilled
   storage:
     back:
     - AU14HatUSArmy
-  inhand:
-    - RMCTacticalPrybar
 
 - type: entity
   parent: CMIDCardGold

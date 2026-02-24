@@ -97,10 +97,13 @@
     sprite: _RMC14/Objects/Storage/procase_mini.rsi
   - type: StorageFill
     contents:
-    - id: AU14USArmyDesertFatigues
-    - id: RMCBootsSPPFilled
-    - id: RMCWeaponRifleM54CMK1Unloaded
-    - id: RMCWeaponPistolM77Empty
+    - id: AU14BeretUSArmy
+    - id: AU14HatUSArmy
+    - id: AU14ArmyJumpsuitCavalry
+    - id: AU14BootsUSArmy
+    - id: RMCWeaponRifleM54C
+    - id: AU14VP78Empty
+    - id: AU14MolleSatchel
     - id: AU14PatchUSArmy
     - id: AU14Patch1stCav
     - id: AU14PatchUAFlag
@@ -277,3 +280,65 @@
     - id: RMCWeaponPistolL54Empty
     - id: AU14RMCPatch
     - id: AU14TWEPatch
+
+- type: entity
+  parent: RMCKitBase
+  id: AU14KitUNISCCommandUSArmy
+  name: UNISC US Army Command Equipment Kit
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,13,0
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+    - id: AU14BeretUSArmyMajor
+    - id: AU14HatUSArmy
+    - id: AU14ArmyJumpsuitCavalry
+    - id: AU14BootsUSArmy
+    - id: RMCWeaponRifleM54C
+    - id: AU14VP78Empty
+    - id: AU14PatchUSArmy
+    - id: AU14Patch1stCav
+    - id: AU14PatchUAFlag
+    - id: AU14PatchUSFlag
+
+- type: entity
+  parent: RMCKitBase
+  id: AU14KitUNISCCommandUPP
+  name: UNISC UPP Command Equipment Kit
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,13,3
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+    - id: AU14UPPUshanka
+    - id: AU14UPPBoonie
+    - id: CMHeadCapSPPBeret
+    - id: AU14UPPPatrolCap
+    - id: AU14FatiguesUPP
+    - id: AU14ServiceFatiguesUPP
+    - id: AU14JumpsuitOfficerUPP
+    - id: AU14JumpsuitMPUPP
+    - id: AU14CoatUPP
+    - id: AU14CoatUPPSenior
+    - id: AU14CoatUPPMP
+    - id: RMCBootsSPPFilled
+    - id: AU14WeaponRifleAG80Filled
+    - id: RMCWeaponPistolT74
+    - id: AU14PatchUPPNavalInfantry
+    - id: AU14PatchUPP
