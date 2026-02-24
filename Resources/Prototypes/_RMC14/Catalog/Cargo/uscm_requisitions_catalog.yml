@@ -130,6 +130,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -368,6 +370,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -606,6 +610,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -844,6 +850,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -1082,6 +1090,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -1320,6 +1330,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -1558,6 +1570,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -1796,6 +1810,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -2034,6 +2050,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
@@ -2273,6 +2291,8 @@
         crate: RMCCrateMortarShellHE
       - cost: 1500
         crate: RMCCrateMortarShellIncendiary
+      - cost: 1500
+        crate: AU14CrateMortarShellHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies

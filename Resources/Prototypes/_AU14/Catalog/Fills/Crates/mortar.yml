@@ -8,7 +8,7 @@
   - type: StorageFill
     contents:
     - id: AU14MortarKitRMC
-    - id: CMBackpackMortar
+    - id: AU14BackpackMortarFilled
 
 - type: entity
   parent: RMCCrateMortarAmmo
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: AU14CrateMortarShellIncendiaryRMC
-  name: L53A1 light mortar shells crate (x6 Incend)
+  name: L53A1 light mortar shells crate (x6 HE-INC)
   components:
   - type: StorageFill
     contents:
@@ -33,7 +33,17 @@
 - type: entity
   parent: RMCCrateMortarAmmo
   id: AU14CrateMortarShellFlareRMC
-  name: L53A1 light mortar shells crate (x6 Flare/Camera)
+  name: L53A1 light mortar shells crate (x6 ILLUM-OBS)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarShellFlare
+      amount: 6
+
+- type: entity
+  parent: RMCCrateMortarAmmo
+  id: AU14CrateMortarShellFlareHEATMP
+  name: L53A1 light mortar shells crate (x6 HEAT-MP)
   components:
   - type: StorageFill
     contents:
