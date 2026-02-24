@@ -70,6 +70,26 @@
     - id: AU14IVFoldableFolded
 
 - type: entity
+  parent: CMBackpackMortar
+  id: AU14BackpackMortarFilled
+  suffix: Filled, Default
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarShellFlare
+    - id: RMCMortarShellFlare
+    - id: RMCMortarShellFlare
+    - id: RMCMortarShellIncendiary
+    - id: RMCMortarShellIncendiary
+    - id: AU14MortarShellHEATMP
+    - id: AU14MortarShellHEATMP
+    - id: RMCMortarShellHE
+    - id: RMCMortarShellHE
+    - id: RMCMortarShellHE
+    - id: RMCMortarShellHE
+    - id: RMCMortarShellHE
+
+- type: entity
   parent: CMSatchelMarine
   id: AU14SatchelMarineIntelBlack
   name: lightweight expedition pack
