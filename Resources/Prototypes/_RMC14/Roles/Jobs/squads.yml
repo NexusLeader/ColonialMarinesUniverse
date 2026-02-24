@@ -142,7 +142,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPMC
-  name: PMC
+  name: Corporate
   components:
   - type: SquadTeam
     color: "#C0C0C0"
@@ -162,7 +162,7 @@
     group: WeYa
     leaderIcon:
       sprite: _RMC14/Interface/cm_job_icons.rsi
-      state: pmc_ld
+      state: weya_goon_lead
 
 - type: entity
   parent: SquadBase

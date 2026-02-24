@@ -39,6 +39,7 @@
   - AU14JobCivilianMiner
   - AU14JobCivilianPrisoner
   - AU14JobCivilianKellandWarden
+  - AU14JobWYGuard
   departmentRadio: null
   headOfDepartment: null
 

@@ -5,8 +5,10 @@
   description: au14-job-description-wyguard
   setPreference: true
   playTimeTracker: AU14JobWYGuard
+  ranks:
+    AU14RankWYSecurityOfficer: []
   startingGear: AU14GearWYGuard
-  icon: "RMCJobIconBureauDeputy"
+  icon: "RMCJobIconPMCGoonStandard"
   requireAdminNotify: false
   requirements:
   - !type:AgeRequirement
@@ -26,13 +28,11 @@
     components:
     - type: Skills
       skills:
-        RMCSkillCqc: 2
-        RMCSkillEndurance: 2
-        RMCSkillFirearms: 2
-        RMCSkillFireman: 2
+        RMCSkillCqc: 1
+        RMCSkillEndurance: 1
+        RMCSkillFirearms: 1
+        RMCSkillFireman: 1
         RMCSkillIntel: 1
-        RMCSkillMedical: 1
-        RMCSkillMeleeWeapons: 1
         RMCSkillOverwatch: 1
         RMCSkillPolice: 2
         RMCSkillVehicles: 1
@@ -42,6 +42,10 @@
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: synth
+    - type: AssignSquad
+      whitelist:
+        tags:
+        - SquadPMC
   hidden: false
 
 - type: startingGear
