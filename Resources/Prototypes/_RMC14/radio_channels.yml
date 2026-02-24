@@ -58,7 +58,7 @@
 - type: radioChannel
   id: MarineRequisition
   name: chat-radio-marine-requisition
-  keycode: "u" #u in cm13
+  keycode: "?" #u in cm13
   frequency: 1485
   color: "#b17324"
   longRange: true
@@ -67,7 +67,7 @@
 - type: radioChannel
   id: MarineIntel
   name: chat-radio-marine-intel
-  keycode: "t" #t in cm13
+  keycode: "z" #t in cm13
   frequency: 1486
   color: "#059705"
   longRange: true
@@ -95,7 +95,7 @@
 - type: radioChannel
   id: MarineBravo
   name: chat-radio-marine-bravo
-  keycode: "b" #b in cm13
+  keycode: "ó" #b in cm13
   frequency: 1492
   color: "#B9A76D"
   longRange: true
@@ -104,7 +104,7 @@
 - type: radioChannel
   id: MarineCharlie
   name: chat-radio-marine-charlie
-  keycode: "c" #c in cm13
+  keycode: "í" #c in cm13
   frequency: 1493
   color: "#7A967E"
   longRange: true

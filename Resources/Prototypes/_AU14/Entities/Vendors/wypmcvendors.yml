@@ -276,6 +276,7 @@
       - id: ClothingNeckStethoscope
       - id: CMRollerBedSpawnFolded
       - id: RMCMedevacStretcherFolded
+      - id: AU14IVFoldable
       - id: CMSurgicalLine
       - id: CMSynthGraft
     - name: Medical Pouches
@@ -557,7 +558,7 @@
     - name: Essential Equipment
       takeAll: CMUAREssentialEquipment
       entries:
-      - id: RMCSmartGunWhiteOut
+      - id: RMCSmartGunPMC
       - id: RMCScabbardMacheteSGFilled
       - id: RMCGlassesSmartGunSight
       - id: RMCPowerCellSmartgun

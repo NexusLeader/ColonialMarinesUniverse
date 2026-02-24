@@ -93,7 +93,7 @@
       entries:
       - id: RMCHollowCane
         name: hollow cane
-        points: 15
+        points: 10
     - name: Weapons & Ammo
       entries:
       - id: RMCWeaponPistolPK7
@@ -103,6 +103,6 @@
     - name: Radio keys
       entries:
       - id: CMEncryptionKeyColony
-        points: 15
+        points: 5
       - id: CMEncryptionKeyWEYA
-        points: 15
+        points: 5

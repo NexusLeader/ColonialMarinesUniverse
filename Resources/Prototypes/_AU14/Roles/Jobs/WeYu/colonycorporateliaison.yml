@@ -6,21 +6,25 @@
   setPreference: true
   playTimeTracker: AU14JobCivilianCorporateLiaison
   ranks:
+    RMCRankWeYaExecutiveSupervisor:
+    - !type:RoleTimeRequirement
+      role: AU14JobCivilianCorporateLiaison
+      time: 360000 # 100 hours
     RMCRankWeYaExecutiveSpecialist:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 180000 # 50 hours
     RMCRankWeYaSeniorExecutive:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 90000 # 25 hours
     RMCRankWeYaExecutive:
     - !type:RoleTimeRequirement
-      role: CMJobLiaison
+      role: AU14JobCivilianCorporateLiaison
       time: 36000 # 10 hours
     RMCRankWeYaJuniorExecutive: []
   startingGear: AU14GearCivilianCorporateLiaison
-  icon: "CMJobIconEmpty"
+  icon: "CMJobIconLiaison"
   requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
@@ -38,16 +42,27 @@
         RMCSkillFireman: 1
         RMCSkillVehicles: 1
         RMCSkillDomestics: 1
-        RMCSkillFirearms: 2
+        RMCSkillFirearms: 1
+        RMCSkillIntel: 1
+        RMCSkillOverwatch: 1
     - type: CMVendorUser
       id: AU14JobCivilianCorporateLiaison
-      points: 65
+      points: 70
     - type: JobPrefix
       prefix: au14-job-prefix-corporateliaison
     - type: TacticalMapIcon
       icon:
         sprite: /Textures/_RMC14/Interface/map_blips.rsi
         state: synth
+    - type: AssignSquad
+      whitelist:
+        tags:
+        - SquadPMC
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
   hidden: false
 
 - type: startingGear
@@ -57,6 +72,8 @@
     shoes: RMCShoesLaceup
     id: AU14IDCardColonyCorporateLiaison
     outerClothing: AU14CivilianJacketOrangePufferJacket
+    ears: RMCHeadsetDistressPMCPVE
+    ears2: RMCM5CameraGear
   inhand:
   - RMCPortableVendorCorporate
 

@@ -24,7 +24,7 @@
       time: 36000 # 10 hours
     AU14RankNSPAConstable: []
   startingGear: AU14GearCiviliannspaConstable
-  icon: "RMCJobIconBureauDeputy"
+  icon: "RMCJobIconTSEPAConstable"
   requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian

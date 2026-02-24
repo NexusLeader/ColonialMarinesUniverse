@@ -9,6 +9,8 @@
   - type: Sprite
     sprite:  _AU14/Items/objectiveprops.rsi
     state: objective1
+  - type: Corrodible
+    isCorrodible: false
 
 - type: entity
   parent: BaseItem
@@ -21,6 +23,8 @@
   - type: Sprite
     sprite:  _AU14/Items/objectiveprops.rsi
     state: objective2
+  - type: Corrodible
+    isCorrodible: false
 
 - type: entity
   parent: BaseItem
@@ -33,6 +37,8 @@
   - type: Sprite
     sprite:  _AU14/Items/objectiveprops.rsi
     state: objective3
+  - type: Corrodible
+    isCorrodible: false
 
 - type: entity
   parent: BaseItem
@@ -45,3 +51,5 @@
   - type: Sprite
     sprite:  _AU14/Items/laptop.rsi
     state: laptop_off_objective
+  - type: Corrodible
+    isCorrodible: false

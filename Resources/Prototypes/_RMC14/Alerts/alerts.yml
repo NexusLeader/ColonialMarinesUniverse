@@ -108,6 +108,11 @@
 
 - type: alert
   parent: SquadTracker
+  id: SquadTrackerCorporate
+  category: SquadTracker
+
+- type: alert
+  parent: SquadTracker
   id: SquadTrackerAlpha
   category: SquadTracker
   icons:

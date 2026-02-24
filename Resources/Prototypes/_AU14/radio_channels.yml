@@ -21,7 +21,7 @@
 - type: radioChannel
   id: opfor
   name: chat-radio-opfor
-  keycode: "i"
+  keycode: "s"
   frequency: 1601
   color: "#bb91d8"
   longRange: true
@@ -57,7 +57,7 @@
 - type: radioChannel
   id: OpforBravo
   name: chat-radio-opforbravo
-  keycode: "s"
+  keycode: "t"
   frequency: 1603
   color: "#c6c1a8"
   longRange: true
@@ -66,7 +66,7 @@
 - type: radioChannel
   id: OpforCharlie
   name: chat-radio-opforcharlie
-  keycode: "x"
+  keycode: "u"
   frequency: 1604
   color: "#bb44bd"
   longRange: true
@@ -84,7 +84,7 @@
 - type: radioChannel
   id: GovforBravo
   name: chat-radio-govforbravo
-  keycode: "z"
+  keycode: "b"
   frequency: 1606
   color: "#c7b646"
   longRange: true
@@ -93,7 +93,7 @@
 - type: radioChannel
   id: GovforCharlie
   name: chat-radio-govforcharlie
-  keycode: "f"
+  keycode: "c"
   frequency: 1607
   color: "#9D3EF0"
   longRange: true

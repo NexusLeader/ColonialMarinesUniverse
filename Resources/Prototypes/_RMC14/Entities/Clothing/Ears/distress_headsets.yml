@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCHeadsetDistressWeYa
   id: RMCHeadsetDistressPMCPVE
-  name: PMC headset
+  name: corporate headset
   description: A special headset used by corporate personnel.
   suffix: PVE
   components:
@@ -105,14 +105,11 @@
     containers:
       key_slots:
       - CMEncryptionKeyWEYA
-  - type: Clothing
-    sprite: _RMC14/Objects/Clothing/Ears/headset_onmob.rsi
-  - type: GrantTacMapAlert
   - type: GrantSquadLeaderTracker
-    defaultMode: LeaderPmcPVE
+    defaultMode: SquadLeader
     trackerModes:
-    - LeaderPmcPVE
-    - TeamLeaderPmcPVE
+    - SquadLeader
+    - FireteamLeader
 
 - type: entity
   parent: RMCHeadsetDistressPMC
