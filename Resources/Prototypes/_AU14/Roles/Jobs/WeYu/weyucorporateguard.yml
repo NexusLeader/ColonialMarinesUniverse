@@ -46,6 +46,11 @@
       whitelist:
         tags:
         - SquadPMC
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
   hidden: false
 
 - type: startingGear
@@ -58,7 +63,8 @@
     head: AU14CivBallCapBlack
     belt: AU14BeltUtilityGeneralBlack
     back: RMCSatchelLightpackBlack
-    ears: RMCHeadsetDistressPMCPVE
+    ears2: RMCHeadsetDistressPMCPVE
+    ears: RMCM5CameraGear
     suitstorage: RMCBeltHolsterPistolTSE
 
 - type: entity

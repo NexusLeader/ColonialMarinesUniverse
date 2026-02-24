@@ -145,7 +145,7 @@
   name: Corporate
   components:
   - type: SquadTeam
-    color: "#C0C0C0"
+    color: "#FFAC1C"
     background:
       sprite: _RMC14/Interface/cm_job_icons.rsi
       state: empty
@@ -163,6 +163,12 @@
     leaderIcon:
       sprite: _RMC14/Interface/cm_job_icons.rsi
       state: weya_goon_lead
+  - type: Tag
+    tags:
+    - SquadPMC
+
+- type: Tag
+  id: SquadPMC
 
 - type: entity
   parent: SquadBase

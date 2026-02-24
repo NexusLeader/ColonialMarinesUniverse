@@ -58,6 +58,11 @@
       whitelist:
         tags:
         - SquadPMC
+    - type: NpcFactionMember
+      factions:
+      - GOVFOR
+    - type: Marine
+      Faction: govfor
   hidden: false
 
 - type: startingGear
@@ -68,6 +73,7 @@
     id: AU14IDCardColonyCorporateLiaison
     outerClothing: AU14CivilianJacketOrangePufferJacket
     ears: RMCHeadsetDistressPMCPVE
+    ears2: RMCM5CameraGear
   inhand:
   - RMCPortableVendorCorporate
 
