@@ -130,6 +130,8 @@
         crate: AU14CrateMortarShellHERMC
       - cost: 1500
         crate: AU14CrateMortarShellIncendiaryRMC
+      - cost: 1500
+        crate: AU14CrateMortarShellFlareHEATMP
 #    - name: Operations
 #      entries: []
     - name: Supplies
