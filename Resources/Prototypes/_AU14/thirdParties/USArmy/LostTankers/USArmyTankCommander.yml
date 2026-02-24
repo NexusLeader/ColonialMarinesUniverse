@@ -3,11 +3,11 @@
   id: AU14USArmyTankCommander
   name: au14-job-name-usarmy-tankcommander
   description: au14-job-description-usarmy-tankccrew
-  playTimeTracker: AU14JobUSArmyTankLoader
+  playTimeTracker: AU14JobUSArmyTankCommander
   ranks:
     USArmy_SergeantFirstClass:
     - !type:RoleTimeRequirement
-      role: AU14JobUSArmyTankLoader
+      role: AU14JobUSArmyTankCommander
       time: 18000 #5 hours
     USArmy_StaffSergeant: []
   spawnMenuRoleName: US Army Tank Commander (AU14, 3rd Party)
@@ -111,4 +111,4 @@
     state: hudsquad_tc
 
 - type: playTimeTracker
-  id: AU14JobUSArmyTankLoader
+  id: AU14JobUSArmyTankCommander
