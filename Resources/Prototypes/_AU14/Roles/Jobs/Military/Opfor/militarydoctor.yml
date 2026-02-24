@@ -59,7 +59,7 @@
     back: AU14SatchelMilitaryDoctor
     outerClothing: RMCLabcoat
     ears: AU14HeadsetGOVFORAux
-    ears2: RMCFlashlightPen
+    ears2: RMCM5CameraGear
     id: AU14IDCardGOVFORDoctor
     neck: ClothingNeckStethoscope
     eyes: RMCGlassesMedicalHUDGlasses

@@ -163,11 +163,11 @@
     SWeapons: AU14CMBCIUSpecialWeaponsVendor
     Corpsman: AU14CMBCIUTacticalMedicVendor
     Arifleman: AU14CMBCIUGunnerVendor
-    Dcc: AU14UPPaircrewvendor
+    Dcc: AU14CMBCIUWeaponsVendor
     OperationsOfficer: AU14CMBCIUCommandVendor
     Rto: AU14RTOVendor
     SectionSergeant: AU14CMBCIUSectionLeader
-    Pilot: AU14UPPAirCrewWeaponsVendor
+    Pilot: AU14CMBCIUPilotVendor
     combattech: AU14ComtechGearVendor
 #  jobClassOverride:
 #    PlatCo: AU14JobGOVFORPlatCoCMBCIU

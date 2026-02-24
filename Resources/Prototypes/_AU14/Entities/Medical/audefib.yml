@@ -20,7 +20,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Item
-    size: Ginormous
+    size: Normal
     sprite: _AU14/Items/audefib.rsi
     heldPrefix: defib
   - type: Clothing

@@ -36,25 +36,20 @@
     overrideDir: South
     enableOverrideDir: false
 
-# WeYa
+# WeYa PMC
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleWeYa
-  suffix: WeYa
+  suffix: WeYu
   components:
   - type: OverwatchConsole
     canOrbitalBombardment: false
     group: WeYa
-  - type: AccessReader
-    access: [ [ "RMCAccessWeYa" ] ]
-  - type: RequiresSkill
-    skills:
-      RMCSkillOverwatch: 0 # So that CL may use it.
 
 - type: entity
   parent: RMCOverwatchConsoleWeYa
   id: RMCOverwatchConsoleWeYaRotating
-  suffix: WeYa, Rotating
+  suffix: WeYu, Rotating
   components:
   - type: Sprite
     overrideDir: South
