@@ -15,7 +15,7 @@
     USArmy_Private2: []
   spawnMenuRoleName: US Army Trooper LAT (AU14, 3rd Party)
   startingGear: AU14GearUSArmyTrooperArmoredLAT
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyTrooper"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader

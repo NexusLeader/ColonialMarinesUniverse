@@ -24,7 +24,7 @@
     USArmy_PFC: []
   spawnMenuRoleName: US Army Combat Medical Tech (AU14, 3rd Party)
   startingGear: AU14GearUSArmyCMTArmored
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyCMT"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader

@@ -24,7 +24,7 @@
     USArmy_Specialist: []
   spawnMenuRoleName: US Army Marksman (AU14, 3rd Party)
   startingGear: AU14GearUSArmyMarksmanArmored
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyMarksman"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader

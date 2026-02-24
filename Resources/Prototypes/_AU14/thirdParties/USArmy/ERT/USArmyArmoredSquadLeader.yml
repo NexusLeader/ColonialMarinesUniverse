@@ -24,10 +24,10 @@
     USArmy_SergeantFirstClass: []
   spawnMenuRoleName: US Army Squad Leader (AU14, 3rd Party)
   startingGear: AU14GearUSArmySquadleaderArmored
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmySL"
   joinNotifyCrew: false
-  supervisors: rmc-job-name-forecon-commander
+  supervisors: au14-job-supervisors-platco
   accessGroups:
   - AU14GovforCommand
   special:

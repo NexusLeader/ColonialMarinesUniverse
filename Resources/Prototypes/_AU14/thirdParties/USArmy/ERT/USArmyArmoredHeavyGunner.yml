@@ -24,7 +24,7 @@
     USArmy_Specialist: []
   spawnMenuRoleName: US Army Heavy Gunner (AU14, 3rd Party)
   startingGear: AU14GearUSArmyHeavyGunnerArmored
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyHeavyGunner"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader

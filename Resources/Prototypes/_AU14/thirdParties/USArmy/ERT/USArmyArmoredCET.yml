@@ -24,7 +24,7 @@
     USArmy_PFC: []
   spawnMenuRoleName: US Army Combat Engineer Tech (AU14, ERT)
   startingGear: AU14GearUSArmyCETArmored
-  greeting: au14-usarmy-greeting
+  greeting: au14-usarmy-armored-greeting
   icon: "AU14JobIconUSArmyCET"
   joinNotifyCrew: false
   supervisors: cm-job-name-squad-leader
