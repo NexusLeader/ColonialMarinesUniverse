@@ -61,7 +61,6 @@
     allowMovement: true
     name: cm-job-name-squad-leader
     description: rmc-job-description-forecon
-    playTimeTracker: AU14JobFORECONSquadLeader
     reregister: false
     job: AU14FORECONSquadleader
     raffle:

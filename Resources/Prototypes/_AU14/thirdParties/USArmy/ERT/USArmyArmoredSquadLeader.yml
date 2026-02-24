@@ -111,7 +111,7 @@
   name: US Army Section Leader ID card
   components:
   - type: PresetIdCard
-    job: AU14USArmySquadleader
+    job: AU14USArmySquadLeader
   - type: ItemIFF
     faction: GOVFOR
 

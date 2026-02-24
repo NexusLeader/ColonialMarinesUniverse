@@ -69,7 +69,7 @@
   spawnTogether: true
 
 - type: auThirdParty
-  id: FORECONAlt22
+  id: FORECONAlt2
   partyspawn: FORECONSpawnAlt2
   blacklistedgamemodes: 
     - insurgency

@@ -13,7 +13,7 @@
   name: au14-job-name-usarmy-cmt
   description: au14-job-description-usarmy
   ranks:
-    RMCRankStaffSerUSArmy_Corporalgeant:
+    USArmy_Corporal:
     - !type:RoleTimeRequirement
       role: AU14JobUSArmyCMT
       time: 36000 #10 hours

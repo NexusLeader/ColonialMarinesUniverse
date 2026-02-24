@@ -5,7 +5,7 @@
   description: au14-job-description-usarmy
   playTimeTracker: AU14JobUSArmyCMT
   ranks:
-    RMCRankStaffSerUSArmy_Corporalgeant:
+    USArmy_Corporal:
     - !type:RoleTimeRequirement
       role: AU14JobUSArmyCMT
       time: 36000 #10 hours

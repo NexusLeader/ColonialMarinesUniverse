@@ -45,7 +45,7 @@
     - type: AssignSquad
       whitelist:
         tags:
-        - SquadFORECON
+        - RMCSquadFORECON
     - type: Skills
       skills:
         RMCSkillCqc: 5
