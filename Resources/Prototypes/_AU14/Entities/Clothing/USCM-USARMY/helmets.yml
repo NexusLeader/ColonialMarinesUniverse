@@ -140,3 +140,25 @@
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/helmet.rsi
   - type: Clothing
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/helmet.rsi
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: AU14HelmetGhillie
+  name: M45 ghillie helmet
+  description: A lightweight M45 helmet with ghillie coif used by UA snipers on recon missions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USCMC/Helmets/ghillie.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/USCMC/Helmets/ghillie.rsi
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: AU14HelmetUSArmy
+  name: personal body armor system helmet
+  description: The personal body armor system helmet is the standard issue combat helmet for the US Army. Selected over the M12 pattern helmet during combat trials, it offers allegedly superior protection compared to the M12 series, at over four times the cost. Though its far more uncomfortable to wear.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Helmets/helmet.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/US_Army/Helmets/helmet.rsi

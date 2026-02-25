@@ -10,7 +10,7 @@
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UPPSOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_spp_alpha
@@ -26,13 +26,13 @@
   name: Territorial Defense
   components:
   - type: SquadTeam
-    color: "#edae72"
+    color: "#ed7e57"
     blacklistedSquadArmor:
     - Helmet
     - Goggles
     - Armor
     - Gloves
-    radio: MarineAlpha
+    radio: UPPSOF
     minimapBackground:
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: background_spp
@@ -42,8 +42,58 @@
     tags:
     - AU14SquadTD
 
+- type: entity
+  parent: SquadBase
+  id: AU14SquadUACG
+  name: Colonial Guard
+  components:
+  - type: SquadTeam
+    color: "#edae72"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: UASOF
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_ua
+    canSupplyDrop: false
+    group: UACG
+  - type: Tag
+    tags:
+    - AU14SquadUACG
+
+- type: entity
+  parent: SquadBase
+  id: AU14SquadUSArmy
+  name: US Army
+  components:
+  - type: SquadTeam
+    color: "#2e4f68"
+    blacklistedSquadArmor:
+    - Helmet
+    - Goggles
+    - Armor
+    - Gloves
+    radio: UASOF
+    minimapBackground:
+      sprite: /Textures/_RMC14/Interface/map_blips.rsi
+      state: background_ua
+    canSupplyDrop: false
+    group: USArmy
+  - type: Tag
+    tags:
+    - AU14SquadUSArmy
+
+- type: Tag
+  id: AU14SquadUACG
+
 - type: Tag
   id: AU14SquadGROM
 
 - type: Tag
   id: AU14SquadTD
+
+- type: Tag
+  id: AU14SquadUSArmy

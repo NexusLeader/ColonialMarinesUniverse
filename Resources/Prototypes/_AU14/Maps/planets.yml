@@ -30,12 +30,16 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - FORECON
+    - FORECONAlt
+    - FORECONAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
@@ -66,6 +70,10 @@
     opforinship: true
     daycycleenabled: true
     thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
+    - USArmyTank
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
@@ -73,6 +81,7 @@
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
@@ -113,6 +122,7 @@
     - UPPGROM
     - UPPGROMAlt
     - UPPGROMAlt2
+    - USArmyTank
     - UACGLostTeam
     - LACNSniperteam
     - cultistThirdParty
@@ -149,10 +159,12 @@
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam
+    - USArmyTank
     - NSPAInvestigationParty
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
     - cultistThirdParty
     - cultistThirdPartyNoQueen
     - CMBInvestigationParty
@@ -215,7 +227,10 @@
     daycycleenabled: true
     threats:
     - XenoThreat
-   # thirdparties:
+    thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
    # - cultistThirdParty
 
 - type: entity
@@ -245,6 +260,9 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - USArmy
+    - USArmyAlt
+    - USArmyAlt2
     - ICRCReliefParty
     - TimeSharesSalesman
     - NSPAInvestigationPartyArmored
@@ -252,6 +270,7 @@
     - NSPAInvestigationPartyAlt
     - LACNSniperteam
     - RMCRRT
+    - USArmyArmored
 
 - type: entity
   id: AUPlanetLV327
@@ -283,6 +302,10 @@
     - XenoThreat
     - XenoThreatCF
     thirdparties:
+    - FORECON
+    - FORECONAlt
+    - FORECONAlt2
+    - USArmyTank
     - ICRCReliefParty
     - TimeSharesSalesman
     - UACGLostTeam

@@ -265,8 +265,8 @@
 - type: entity
   parent: RMCPatchBase
   id: RMCPatchFORECON
-  name: UNMC Force Reconnaissance patch
-  description: A fire-resistant shoulder patch, worn by the men and women of the UNS Hanyut, UNMC FORECON.
+  name: USCM Force Reconnaissance patch
+  description: A fire-resistant shoulder patch, worn by the men and women of the UNS Hanyut, USCMC FORECON.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Patches/UN/forecon_patch.rsi
