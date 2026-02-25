@@ -9,7 +9,7 @@
     RMCRankWeYaAssistantManager:
     - !type:RoleTimeRequirement
       role: AU14JobCivilianCorporateLiaison
-      time: 900000 # 250 hours
+      time: 630000 # 175 hours, would be more but player input said otherwise
     RMCRankWeYaExecutiveSupervisor:
     - !type:RoleTimeRequirement
       role: AU14JobCivilianCorporateLiaison
