@@ -107,3 +107,12 @@
   color: "#e4860c"
   longRange: true
   faction: "opfor"
+
+- type: radioChannel
+  id: UASOF
+  name: chat-radio-uasof
+  keycode: "5"
+  frequency: 1553
+  color: "#e4860c"
+  longRange: true
+  faction: "opfor"

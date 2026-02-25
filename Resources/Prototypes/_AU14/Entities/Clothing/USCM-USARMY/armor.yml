@@ -362,3 +362,74 @@
     leaderRsi:
       sprite: _RMC14/Objects/Clothing/Head/Helmets/helmet_overlays.rsi
       state: sql-helmet
+
+- type: entity
+  parent: AU14BaseArmor
+  id: AU14ArmorGhillie
+  name: M45 pattern jungle ghillie armor
+  description: A lightweight ghillie camouflage suit, used by UA snipers on recon missions. Very lightweight, but doesn't protect much.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USCMC/Armor/ghillie.rsi
+  - type: CMArmor
+    bio: 25
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier # light armor speed
+    walkModifier: .725
+    sprintModifier: .725
+  - type: GhillieSuit
+    whitelist:
+      components:
+      - SniperWhitelist
+      - SpotterWhitelist
+  - type: SquadArmor
+    layer: Armor
+    slot: OUTERCLOTHING
+    rsi:
+      sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+      state: snpr-armor
+    leaderRsi:
+      sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armor_overlays.rsi
+      state: snpr-armor
+
+- type: entity
+  parent: AU14BaseArmorVest
+  id: AU14ArmorUSArmy
+  suffix: Survivor
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
+  - type: StorageFill
+    contents:
+    - id: RMCTacticalPrybar
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,1
+    blacklist:
+      tags:
+      - Pouch
+
+- type: entity
+  parent: AU14BaseArmor
+  id: AU14ArmorUSArmyNormal
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
+
+- type: entity
+  parent: CMArmorM3VLSynth
+  id: AU14ArmorUSArmySynth
+  name: Synthetic Body Armor System
+  description: This is a variant of the Personnel Body Armor System, it has been modified extensively to be used by US Army Synthetics. It offers light protection, maximum mobility and more internal storage than its USCM counterpart. The cost of this item could outfit an entire squad of USCM Marines, but you are worth this cost.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/US_Army/Armor/synth.rsi
+  - type: StorageFill
+    contents:
+    - id: RMCTacticalPrybar

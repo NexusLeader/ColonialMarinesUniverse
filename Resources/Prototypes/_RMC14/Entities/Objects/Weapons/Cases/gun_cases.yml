@@ -391,8 +391,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCGunCaseRifleM54C
-  name: M54C assault rifle MK2 case
-  description: A gun case containing the M54C assault rifle MK2.
+  name: M41 assault rifle MK2 case
+  description: A gun case containing the M41 assault rifle MK2.
   components:
   - type: Storage
     maxItemSize: Ginormous

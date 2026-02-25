@@ -544,8 +544,8 @@
       entries:
       - id: AU14KitUNISCRiflemanCCAF
       - id: AU14KitUNISCRiflemanLACN
-      - id: AU14KitUNISCRiflemanUSArmy
-      - id: AU14KitUNISCRiflemanUPP
+      - id: AU14KitUNISCCommandUSArmy
+      - id: AU14KitUNISCCommandUPP
       - id: AU14KitUNISCRiflemanUSCM
       - id: AU14KitUNISCCommandRMC
     - name: Fatigues
@@ -619,18 +619,20 @@
     sections:
     - name: Rifle Ammunition
       entries:
-      - id: CMMagazineRifleM54CMK1
+      - id: CMMagazineRifleM54C
         amount: 120
-      - id: RMCMagazineRifleType71
+      - id: AU14MagazineRifleAG80
         amount: 120
       - id: AU14MagazineRifleM75AMAS
         amount: 120
       - id: AU14WeaponRifleKramerMagazineStandard
         amount: 120
-      - id: AU14MagazineRifleL90
+      - id: RMCMagazineRifleL24
         amount: 120
     - name: Handgun Ammunition
       entries:
+      - id: CMMagazinePistolMK80
+        amount: 120 
       - id: CMMagazinePistolM77AP
         amount: 120
       - id: CMMagazinePistolM1984
