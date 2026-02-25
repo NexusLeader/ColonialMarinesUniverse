@@ -21,4 +21,4 @@
   minplayers: 0
   maxplayers: 400
   GhostsNeeded: 10
-  roundstart: true
+  roundstart: false
