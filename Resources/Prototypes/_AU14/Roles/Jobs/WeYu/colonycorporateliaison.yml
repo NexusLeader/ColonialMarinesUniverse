@@ -6,6 +6,10 @@
   setPreference: true
   playTimeTracker: AU14JobCivilianCorporateLiaison
   ranks:
+    RMCRankWeYaAssistantManager:
+    - !type:RoleTimeRequirement
+      role: AU14JobCivilianCorporateLiaison
+      time: 900000 # 250 hours
     RMCRankWeYaExecutiveSupervisor:
     - !type:RoleTimeRequirement
       role: AU14JobCivilianCorporateLiaison
