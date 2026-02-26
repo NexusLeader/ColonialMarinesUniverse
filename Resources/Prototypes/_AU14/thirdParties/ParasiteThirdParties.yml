@@ -20,11 +20,11 @@
   - type: XenoLeap
     delay: 0
   - type: XenoStrain
-    name: Runner
-    description: Lose your access to the Hivemind in exchange for enhanced movement.
-    popup: You are now a Runner. You no longer take damage from being off weeds and can speak and point.
+    name: cmu-xeno-parasite-runner-name
+    description: cmu-xeno-parasite-runner-description
+    popup: cmu-xeno-parasite-runner-popup
   - type: RMCActionOrder
-    id: CMCXenoParasiteRunner
+    id: CMUXenoParasiteRunner
   - type: MovementSpeedModifier
     baseWalkSpeed: 5.55
     baseSprintSpeed: 10
@@ -33,7 +33,7 @@
   - type: Clothing
     sprite: _CMU14/Mobs/thirdPartiesXenos/parasite_runner.rsi
   - type: FixedIdentity
-    name: Parasite Runner
+    name: cmu-job-name-xeno-parasite-runner
     whitelist:
       components:
       - Xeno
