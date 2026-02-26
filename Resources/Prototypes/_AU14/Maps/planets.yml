@@ -85,6 +85,7 @@
     - cultistThirdParty
     - CMBInvestigationParty
     - CMBInvestigationPartyAlt
+    - XenoParasiteRunnerParty
     threats:
     - cultistThreat
     - XenoThreat
