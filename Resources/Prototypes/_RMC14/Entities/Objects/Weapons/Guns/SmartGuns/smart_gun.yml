@@ -55,7 +55,7 @@
     availableModes:
     - FullAuto
     soundGunshot:
-      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_ml66a_2.ogg
+      collection: AU14SmartgunFireSound
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: RMCSelectiveFire
@@ -265,7 +265,7 @@
     sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/CO.rsi
   - type: Gun
     soundGunshot:
-      path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_ml66a.ogg
+      collection: AU14SmartgunFireSound
   - type: ItemSlots
     slots:
       gun_magazine:

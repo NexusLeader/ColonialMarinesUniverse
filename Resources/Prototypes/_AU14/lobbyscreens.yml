@@ -13,3 +13,7 @@
 - type: lobbyBackground
   id: AU14LobbyMarineExtract
   background: /Textures/_AU14/Lobby/MarineExtract.png
+
+- type: lobbyBackground
+  id: AU14LobbyXenoAttack
+  background: /Textures/_AU14/Lobby/XenoAttack.png
