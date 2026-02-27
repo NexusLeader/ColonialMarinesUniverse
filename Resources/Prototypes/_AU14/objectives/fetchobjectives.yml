@@ -41,11 +41,11 @@
   parent: MarkerBase
   id: fetchreturnopfor
   components:
-    - type: Sprite
-      state: red
-    - type: FetchObjectiveReturnPoint
-      returnpointfaction: opfor
-      generic: true
+  - type: Sprite
+    state: red
+  - type: FetchObjectiveReturnPoint
+    returnpointfaction: opfor
+    generic: true
 
 - type: entity
   name: Fetch Generic Return point Govfor
@@ -140,6 +140,60 @@
     amounttofetch: 1
 
 - type: entity
+  name: Fetch Nuclear Launch Codes Booklet Objecive
+  parent: MarkerBase
+  id: fetchnuclearlaunchcodesobjective
+  components:
+  - type: Sprite
+    state: red
+  - type: AuObjective
+    id: fetchnuclearlaunchcodesobj
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    - DistressSignal
+    possiblefactions:
+    - opfor
+    - govfor
+    repeating: false
+    objectivelevel: 1
+    custompoints: 5
+    roundEndMessage: Finding the Nuclear Launch Codes Booklet
+    ObjectiveDescription: "Retrieve the Nuclear Launch Codes Booklet"
+  - type: FetchObjective
+    entitytospawn: AU14ObjectiveItemNuclearLaunchCodes
+    markerentity: fetchobjectivemarkergenericspawnpoint
+    amounttospawn: 1
+    amounttofetch: 1
+
+- type: entity
+  name: Fetch Theater Operations Handbook Objecive
+  parent: MarkerBase
+  id: fetchtheaterhandbookobjective
+  components:
+  - type: Sprite
+    state: red
+  - type: AuObjective
+    id: fetchtheaterhandbookobj
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    - DistressSignal
+    possiblefactions:
+    - opfor
+    - govfor
+    repeating: false
+    objectivelevel: 1
+    custompoints: 5
+    roundEndMessage: Finding the Theater Operations Handbook
+    ObjectiveDescription: "Retrieve the Theater Operations Handbook"
+  - type: FetchObjective
+    entitytospawn: AU14ObjectiveItemTheaterHandbook
+    markerentity: fetchobjectivemarkergenericspawnpoint
+    amounttospawn: 1
+    amounttofetch: 1
+
+- type: entity
   name: Fetch RCS-9 ARDSU Objecive
   parent: MarkerBase
   id: fetchattmosdatastorageunitobjective
@@ -188,7 +242,7 @@
     roundEndMessage: Finding the WY laptop
     ObjectiveDescription: "Retrieve the Weyland-Yutani bioweapons division laptop"
   - type: FetchObjective
-    entitytospawn: AU14ObjectiveItemAtmosphericRadarStorageUnit
+    entitytospawn: AU14ObjectiveItemWYLaptop
     markerentity: fetchobjectivemarkergenericspawnpoint
     amounttospawn: 1
     amounttofetch: 1
@@ -202,6 +256,3 @@
     state: red
   - type: FetchObjectiveMarker
     generic: true
-
-
-

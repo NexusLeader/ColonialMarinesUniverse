@@ -650,3 +650,145 @@
     flaghealth: 100
   - type: NavMapBeacon
     text: Cargo Pier
+
+#Corsat
+
+- type: entity
+  name: Capture Biodome Theta
+  parent: AU14WallFlagUA
+  id: captureobjectivecorsatbiodometheta
+  description: "Capture Biodome Theta for your faction."
+  components:
+  - type: AuObjective
+    id: capturecorsatbiodometheta
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    possiblefactions:
+    - govfor
+    - opfor
+    - clf
+    objectivelevel: 2
+    custompoints: 5
+    ObjectiveDescription: "Capture Biodome Theta for your faction."
+    roundEndMessage: "By capturing Biodome Theta"
+  - type: CaptureObjective
+    hoisttime: 8
+    maxholdtimes: 10
+    pointincrementtime: 360
+    visibleonmap: true
+    flaghealth: 100
+  - type: NavMapBeacon
+    text: Biodome Theta
+
+- type: entity
+  name: Capture Biodome Gamma
+  parent: AU14WallFlagUA
+  id: captureobjectivecorsatbiodomegamma
+  description: "Capture Biodome Gamma for your faction."
+  components:
+  - type: AuObjective
+    id: capturecorsatbiodomegamma
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    possiblefactions:
+    - govfor
+    - opfor
+    - clf
+    objectivelevel: 2
+    custompoints: 5
+    ObjectiveDescription: "Capture Biodome Gamma for your faction."
+    roundEndMessage: "By capturing Biodome Gamma"
+  - type: CaptureObjective
+    hoisttime: 8
+    maxholdtimes: 10
+    pointincrementtime: 360
+    visibleonmap: true
+    flaghealth: 100
+  - type: NavMapBeacon
+    text: Biodome Gamma
+
+- type: entity
+  name: Capture Biodome Sigma
+  parent: AU14WallFlagUA
+  id: captureobjectivecorsatbiodomesigma
+  description: "Capture Biodome Sigma for your faction."
+  components:
+  - type: AuObjective
+    id: capturecorsatbiodomesigma
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    possiblefactions:
+    - govfor
+    - opfor
+    - clf
+    objectivelevel: 2
+    custompoints: 5
+    ObjectiveDescription: "Capture Biodome Sigma for your faction."
+    roundEndMessage: "By capturing Biodome Sigma"
+  - type: CaptureObjective
+    hoisttime: 8
+    maxholdtimes: 10
+    pointincrementtime: 360
+    visibleonmap: true
+    flaghealth: 100
+  - type: NavMapBeacon
+    text: Biodome Sigma
+
+- type: entity
+  name: Capture the Station Administration
+  parent: AU14WallFlagUA
+  id: captureobjectivecorsatstationadmin
+  description: "Capture Station Administration for your faction."
+  components:
+  - type: AuObjective
+    id: capturecorsatstationadmin
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    possiblefactions:
+    - govfor
+    - opfor
+    - clf
+    objectivelevel: 2
+    custompoints: 5
+    ObjectiveDescription: "Capture Station Administration for your faction."
+    roundEndMessage: "By capturing Station Administration"
+  - type: CaptureObjective
+    hoisttime: 8
+    maxholdtimes: 10
+    pointincrementtime: 360
+    visibleonmap: true
+    flaghealth: 100
+  - type: NavMapBeacon
+    text: Station Administration
+
+- type: entity
+  name: Capture the Research Complex
+  parent: AU14WallFlagUA
+  id: captureobjectivecorsatreseaechcomplex
+  description: "Capture the Research Complex for your faction."
+  components:
+  - type: AuObjective
+    id: capturecorsatresearchcomplex
+    factioneutral: true
+    applicableModes:
+    - ForceOnForce
+    possiblefactions:
+    - govfor
+    - opfor
+    - clf
+    objectivelevel: 2
+    custompoints: 5
+    ObjectiveDescription: "Capture the Research Complex for your faction."
+    roundEndMessage: "By capturing the Research Complex"
+  - type: CaptureObjective
+    hoisttime: 8
+    maxholdtimes: 10
+    pointincrementtime: 360
+    visibleonmap: true
+    flaghealth: 100
+  - type: NavMapBeacon
+    text: Research Complex
