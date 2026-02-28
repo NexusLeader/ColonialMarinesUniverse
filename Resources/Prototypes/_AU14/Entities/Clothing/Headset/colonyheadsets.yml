@@ -93,7 +93,7 @@
       key_slots:
       - AU14EncryptionKeyAdmin
 
-    - type: entity
+- type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyWeylandHeadset
   name: colony weyland yutani headset
