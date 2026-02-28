@@ -383,3 +383,19 @@
     - /Audio/_RMC14/Lobby/Time_Is_Running_Out.ogg
     - /Audio/_RMC14/Hijack/storm_the_iron_hive.ogg
     - /Audio/_RMC14/Hijack/Last_Stand.ogg
+
+ - type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeUSCM
+  name: USCM cassette
+  description: "Another Glorious Day in the corps!'"
+  components:
+  - type: Sprite
+    state: cassette_worstmap
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Lobby/USCMhymm.ogg
+    - /Audio/_AU14/RoundEnd/USCMVictory_or_theme.ogg
+    - /Audio/_AU14/RoundEnd/FortunateSon.ogg
